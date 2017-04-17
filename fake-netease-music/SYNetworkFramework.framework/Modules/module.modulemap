@@ -1,0 +1,6 @@
+framework module SYNetworkFramework {
+  umbrella header "SYNetworkFramework.h"
+
+  export *
+  module * { export * }
+}
