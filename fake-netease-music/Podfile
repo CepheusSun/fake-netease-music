@@ -10,6 +10,6 @@ target 'fake-netease-music' do
     pod 'EmptyDataKit'
     pod 'BlocksKit'
     pod 'YYWebImage'
-
+    pod 'WMPageController'
 
 end
