@@ -1,19 +1,4 @@
 PODS:
-  - AFNetworking (3.1.0):
-    - AFNetworking/NSURLSession (= 3.1.0)
-    - AFNetworking/Reachability (= 3.1.0)
-    - AFNetworking/Security (= 3.1.0)
-    - AFNetworking/Serialization (= 3.1.0)
-    - AFNetworking/UIKit (= 3.1.0)
-  - AFNetworking/NSURLSession (3.1.0):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.1.0)
-  - AFNetworking/Security (3.1.0)
-  - AFNetworking/Serialization (3.1.0)
-  - AFNetworking/UIKit (3.1.0):
-    - AFNetworking/NSURLSession
   - BlocksKit (2.2.5):
     - BlocksKit/All (= 2.2.5)
   - BlocksKit/All (2.2.5):
@@ -43,7 +28,6 @@ PODS:
   - ZXPAutoLayout (2.0.1)
 
 DEPENDENCIES:
-  - AFNetworking
   - BlocksKit
   - EmptyDataKit
   - MJRefresh
@@ -52,7 +36,6 @@ DEPENDENCIES:
   - ZXPAutoLayout
 
 SPEC CHECKSUMS:
-  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   EmptyDataKit: 7d4a58bc60096b23eb0e39d066ed3adba0cd24a5
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
@@ -62,6 +45,6 @@ SPEC CHECKSUMS:
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
   ZXPAutoLayout: 04094766499e62a79ac9a66966b5da115e52535d
 
-PODFILE CHECKSUM: 2237682a277df4b8433038b53d9468c7f7b8c1c4
+PODFILE CHECKSUM: e9afecc09ac4efbd77979cd3b5d21e8c3c08c7bd
 
 COCOAPODS: 1.2.1.beta.1
