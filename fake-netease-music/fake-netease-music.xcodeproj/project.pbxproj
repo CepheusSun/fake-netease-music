@@ -13,20 +13,40 @@
 		33AEBA961EA4E8E1001FF0C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBA941EA4E8E1001FF0C4 /* Main.storyboard */; };
 		33AEBA981EA4E8E1001FF0C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBA971EA4E8E1001FF0C4 /* Assets.xcassets */; };
 		33AEBA9B1EA4E8E1001FF0C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBA991EA4E8E1001FF0C4 /* LaunchScreen.storyboard */; };
+		33AEBB231EA4F41D001FF0C4 /* SYNetworkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AEBB221EA4F41D001FF0C4 /* SYNetworkFramework.framework */; };
+		33AEBB291EA4F469001FF0C4 /* NEBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB281EA4F469001FF0C4 /* NEBaseRequest.m */; };
+		33AEBB2B1EA4F481001FF0C4 /* SYNetworkFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 33AEBB221EA4F41D001FF0C4 /* SYNetworkFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		82F247F5AE0BCACF08AC5742 /* libPods-fake-netease-music.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		33AEBAC91EA4F11F001FF0C4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				33AEBB2B1EA4F481001FF0C4 /* SYNetworkFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		33AEBA881EA4E8E1001FF0C4 /* fake-netease-music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fake-netease-music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33AEBA8C1EA4E8E1001FF0C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		33AEBA8E1EA4E8E1001FF0C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		33AEBA8F1EA4E8E1001FF0C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33AEBA8E1EA4E8E1001FF0C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "fake-netease-music/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		33AEBA8F1EA4E8E1001FF0C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "fake-netease-music/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
 		33AEBA911EA4E8E1001FF0C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		33AEBA921EA4E8E1001FF0C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		33AEBA951EA4E8E1001FF0C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		33AEBA971EA4E8E1001FF0C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33AEBA971EA4E8E1001FF0C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		33AEBA9A1EA4E8E1001FF0C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33AEBA9C1EA4E8E1001FF0C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33AEBB221EA4F41D001FF0C4 /* SYNetworkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SYNetworkFramework.framework; sourceTree = "<group>"; };
+		33AEBB271EA4F469001FF0C4 /* NEBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEBaseRequest.h; sourceTree = "<group>"; };
+		33AEBB281EA4F469001FF0C4 /* NEBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEBaseRequest.m; sourceTree = "<group>"; };
 		7162621B7511145A510BA3B6 /* Pods-fake-netease-music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake-netease-music.release.xcconfig"; path = "Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music.release.xcconfig"; sourceTree = "<group>"; };
 		943D84572452F68D2A0A4E57 /* Pods-fake-netease-music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake-netease-music.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music.debug.xcconfig"; sourceTree = "<group>"; };
 		C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fake-netease-music.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33AEBB231EA4F41D001FF0C4 /* SYNetworkFramework.framework in Frameworks */,
 				82F247F5AE0BCACF08AC5742 /* libPods-fake-netease-music.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,14 +86,11 @@
 		33AEBA8A1EA4E8E1001FF0C4 /* fake-netease-music */ = {
 			isa = PBXGroup;
 			children = (
-				33AEBA8E1EA4E8E1001FF0C4 /* AppDelegate.h */,
-				33AEBA8F1EA4E8E1001FF0C4 /* AppDelegate.m */,
-				33AEBA911EA4E8E1001FF0C4 /* ViewController.h */,
-				33AEBA921EA4E8E1001FF0C4 /* ViewController.m */,
-				33AEBA941EA4E8E1001FF0C4 /* Main.storyboard */,
-				33AEBA971EA4E8E1001FF0C4 /* Assets.xcassets */,
-				33AEBA991EA4E8E1001FF0C4 /* LaunchScreen.storyboard */,
-				33AEBA9C1EA4E8E1001FF0C4 /* Info.plist */,
+				33AEBAA61EA4EFD6001FF0C4 /* Resource */,
+				33AEBAA21EA4EFAB001FF0C4 /* General */,
+				33AEBAA31EA4EFAB001FF0C4 /* Section */,
+				33AEBAA41EA4EFAB001FF0C4 /* Vendor */,
+				33AEBAA51EA4EFAB001FF0C4 /* App */,
 				33AEBA8B1EA4E8E1001FF0C4 /* Supporting Files */,
 			);
 			path = "fake-netease-music";
@@ -81,14 +99,84 @@
 		33AEBA8B1EA4E8E1001FF0C4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				33AEBA911EA4E8E1001FF0C4 /* ViewController.h */,
+				33AEBA921EA4E8E1001FF0C4 /* ViewController.m */,
+				33AEBA941EA4E8E1001FF0C4 /* Main.storyboard */,
+				33AEBA991EA4E8E1001FF0C4 /* LaunchScreen.storyboard */,
+				33AEBA9C1EA4E8E1001FF0C4 /* Info.plist */,
 				33AEBA8C1EA4E8E1001FF0C4 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		33AEBAA21EA4EFAB001FF0C4 /* General */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		33AEBAA31EA4EFAB001FF0C4 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		33AEBAA41EA4EFAB001FF0C4 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		33AEBAA51EA4EFAB001FF0C4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBAA91EA4F0B2001FF0C4 /* AppConfig */,
+				33AEBAA81EA4F0A6001FF0C4 /* AppDelegate */,
+				33AEBAA71EA4F098001FF0C4 /* AppBase */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		33AEBAA61EA4EFD6001FF0C4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBA971EA4E8E1001FF0C4 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		33AEBAA71EA4F098001FF0C4 /* AppBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppBase;
+			sourceTree = "<group>";
+		};
+		33AEBAA81EA4F0A6001FF0C4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBA8E1EA4E8E1001FF0C4 /* AppDelegate.h */,
+				33AEBA8F1EA4E8E1001FF0C4 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		33AEBAA91EA4F0B2001FF0C4 /* AppConfig */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBB271EA4F469001FF0C4 /* NEBaseRequest.h */,
+				33AEBB281EA4F469001FF0C4 /* NEBaseRequest.m */,
+			);
+			path = AppConfig;
+			sourceTree = "<group>";
+		};
 		42B6E6B532E16A68E02CCAF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				33AEBB221EA4F41D001FF0C4 /* SYNetworkFramework.framework */,
 				C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */,
 			);
 			name = Frameworks;
@@ -116,6 +204,7 @@
 				33AEBA861EA4E8E1001FF0C4 /* Resources */,
 				4CC2D537E37D2D7AC798F5AD /* [CP] Embed Pods Frameworks */,
 				ED03C05FBB44EA9183172E6B /* [CP] Copy Pods Resources */,
+				33AEBAC91EA4F11F001FF0C4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33AEBA931EA4E8E1001FF0C4 /* ViewController.m in Sources */,
+				33AEBB291EA4F469001FF0C4 /* NEBaseRequest.m in Sources */,
 				33AEBA901EA4E8E1001FF0C4 /* AppDelegate.m in Sources */,
 				33AEBA8D1EA4E8E1001FF0C4 /* main.m in Sources */,
 			);
@@ -295,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -337,7 +427,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -350,6 +440,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 552B69TXM9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "fake-netease-music/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -364,6 +458,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 552B69TXM9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "fake-netease-music/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
