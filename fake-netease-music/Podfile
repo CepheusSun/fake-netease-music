@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
+
+target 'fake-netease-music' do
+
+# use_frameworks!
+    pod 'AFNetworking'
+    pod 'MJRefresh'
+    pod 'YYModel'
+    pod 'ZXPAutoLayout'
+    pod 'EmptyDataKit'
+    pod 'BlocksKit'
+    pod 'YYWebImage'
+
+
+end

@@ -13,6 +13,7 @@
 		33AEBA961EA4E8E1001FF0C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBA941EA4E8E1001FF0C4 /* Main.storyboard */; };
 		33AEBA981EA4E8E1001FF0C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBA971EA4E8E1001FF0C4 /* Assets.xcassets */; };
 		33AEBA9B1EA4E8E1001FF0C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBA991EA4E8E1001FF0C4 /* LaunchScreen.storyboard */; };
+		82F247F5AE0BCACF08AC5742 /* libPods-fake-netease-music.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		33AEBA971EA4E8E1001FF0C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33AEBA9A1EA4E8E1001FF0C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33AEBA9C1EA4E8E1001FF0C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7162621B7511145A510BA3B6 /* Pods-fake-netease-music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake-netease-music.release.xcconfig"; path = "Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music.release.xcconfig"; sourceTree = "<group>"; };
+		943D84572452F68D2A0A4E57 /* Pods-fake-netease-music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake-netease-music.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music.debug.xcconfig"; sourceTree = "<group>"; };
+		C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fake-netease-music.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82F247F5AE0BCACF08AC5742 /* libPods-fake-netease-music.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				33AEBA8A1EA4E8E1001FF0C4 /* fake-netease-music */,
 				33AEBA891EA4E8E1001FF0C4 /* Products */,
+				DEA6B1A63BB8E7BC86CE93E4 /* Pods */,
+				42B6E6B532E16A68E02CCAF4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +86,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		42B6E6B532E16A68E02CCAF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEA6B1A63BB8E7BC86CE93E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				943D84572452F68D2A0A4E57 /* Pods-fake-netease-music.debug.xcconfig */,
+				7162621B7511145A510BA3B6 /* Pods-fake-netease-music.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33AEBA9F1EA4E8E1001FF0C4 /* Build configuration list for PBXNativeTarget "fake-netease-music" */;
 			buildPhases = (
+				452E255DA4927EC139CDBD3E /* [CP] Check Pods Manifest.lock */,
 				33AEBA841EA4E8E1001FF0C4 /* Sources */,
 				33AEBA851EA4E8E1001FF0C4 /* Frameworks */,
 				33AEBA861EA4E8E1001FF0C4 /* Resources */,
+				4CC2D537E37D2D7AC798F5AD /* [CP] Embed Pods Frameworks */,
+				ED03C05FBB44EA9183172E6B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,6 +172,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		452E255DA4927EC139CDBD3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4CC2D537E37D2D7AC798F5AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED03C05FBB44EA9183172E6B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		33AEBA841EA4E8E1001FF0C4 /* Sources */ = {
@@ -271,10 +346,12 @@
 		};
 		33AEBAA01EA4E8E1001FF0C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 943D84572452F68D2A0A4E57 /* Pods-fake-netease-music.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 552B69TXM9;
 				INFOPLIST_FILE = "fake-netease-music/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cepheus.sun.fake-netease-music";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,10 +360,12 @@
 		};
 		33AEBAA11EA4E8E1001FF0C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7162621B7511145A510BA3B6 /* Pods-fake-netease-music.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 552B69TXM9;
 				INFOPLIST_FILE = "fake-netease-music/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cepheus.sun.fake-netease-music";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +391,7 @@
 				33AEBAA11EA4E8E1001FF0C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
