@@ -10,4 +10,47 @@
 
 @implementation NEBaseRequest
 
+- (NSString *)url {
+    return @"";
+}
+
+- (NSString *)path {
+    return @"";
+}
+
+- (NSDictionary *)parameters {
+    return @{};
+}
+
+- (NSTimeInterval)cacheTimeInterval {
+    return 0;
+}
+
+- (NSDictionary *)remakeParam {
+    return self.parameters;
+}
+
+- (NSURLRequest *)urlRequest {
+    return nil;
+}
+
+- (NSTimeInterval)timeoutInterval {
+    return 20;
+}
+
+- (NSData *)decode:(NSData *)responseObject {
+    return responseObject;
+}
+
+- (SYRequestType)requestType {
+    return SYRequestTypePost;
+}
+
+- (BOOL)showStatusBarIndicator {
+    return NO;
+}
+
+- (BOOL)isIllegal:(SYResponse *)response {
+    return YES;
+}
 @end
