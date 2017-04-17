@@ -8,17 +8,13 @@
 
 #import "HomeController.h"
 
-@interface HomeController ()<WMPageControllerDelegate>
+@interface HomeController ()
 
 @end
 
 @implementation HomeController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    self.title = @"发现音乐";
-}
-
+#pragma mark - initialize
 - (instancetype)init {
     if (self = [super init]) {
         self.menuItemWidth      = [UIScreen mainScreen].bounds.size.width / self.titles.count;
@@ -39,15 +35,25 @@
     return self;
 }
 
+#pragma mark - life cycle
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.title = @"发现音乐";
+   
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [self reloadData];
+}
+
 - (NSArray<NSString *> *)titles {
     return @[@"个性推荐", @"歌单", @"主播电台", @"排行榜"];
 }
 
-
+#pragma mark - WMPageController DataSource
 - (NSInteger)numbersOfTitlesInMenuView:(WMMenuView *)menu {
     return self.titles.count;
 }
-
 
 - (NSString *)menuView:(WMMenuView *)menu titleAtIndex:(NSInteger)index {
     return self.titles[index];
