@@ -16,6 +16,10 @@
 		33AEBB231EA4F41D001FF0C4 /* SYNetworkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AEBB221EA4F41D001FF0C4 /* SYNetworkFramework.framework */; };
 		33AEBB291EA4F469001FF0C4 /* NEBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB281EA4F469001FF0C4 /* NEBaseRequest.m */; };
 		33AEBB2B1EA4F481001FF0C4 /* SYNetworkFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 33AEBB221EA4F41D001FF0C4 /* SYNetworkFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		33AEBB2E1EA4FAA5001FF0C4 /* NENavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB2D1EA4FAA5001FF0C4 /* NENavigationController.m */; };
+		33AEBB311EA4FABD001FF0C4 /* NEBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB301EA4FABD001FF0C4 /* NEBaseController.m */; };
+		33AEBB341EA4FADA001FF0C4 /* NETabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB331EA4FADA001FF0C4 /* NETabbarController.m */; };
+		33AEBB391EA4FB0A001FF0C4 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB381EA4FB0A001FF0C4 /* HomeController.m */; };
 		82F247F5AE0BCACF08AC5742 /* libPods-fake-netease-music.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +51,14 @@
 		33AEBB221EA4F41D001FF0C4 /* SYNetworkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SYNetworkFramework.framework; sourceTree = "<group>"; };
 		33AEBB271EA4F469001FF0C4 /* NEBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEBaseRequest.h; sourceTree = "<group>"; };
 		33AEBB281EA4F469001FF0C4 /* NEBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEBaseRequest.m; sourceTree = "<group>"; };
+		33AEBB2C1EA4FAA5001FF0C4 /* NENavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NENavigationController.h; sourceTree = "<group>"; };
+		33AEBB2D1EA4FAA5001FF0C4 /* NENavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NENavigationController.m; sourceTree = "<group>"; };
+		33AEBB2F1EA4FABD001FF0C4 /* NEBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEBaseController.h; sourceTree = "<group>"; };
+		33AEBB301EA4FABD001FF0C4 /* NEBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEBaseController.m; sourceTree = "<group>"; };
+		33AEBB321EA4FADA001FF0C4 /* NETabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NETabbarController.h; sourceTree = "<group>"; };
+		33AEBB331EA4FADA001FF0C4 /* NETabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NETabbarController.m; sourceTree = "<group>"; };
+		33AEBB371EA4FB0A001FF0C4 /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		33AEBB381EA4FB0A001FF0C4 /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
 		7162621B7511145A510BA3B6 /* Pods-fake-netease-music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake-netease-music.release.xcconfig"; path = "Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music.release.xcconfig"; sourceTree = "<group>"; };
 		943D84572452F68D2A0A4E57 /* Pods-fake-netease-music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake-netease-music.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music.debug.xcconfig"; sourceTree = "<group>"; };
 		C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fake-netease-music.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +131,7 @@
 		33AEBAA31EA4EFAB001FF0C4 /* Section */ = {
 			isa = PBXGroup;
 			children = (
+				33AEBB351EA4FAEA001FF0C4 /* Home */,
 			);
 			path = Section;
 			sourceTree = "<group>";
@@ -151,6 +164,12 @@
 		33AEBAA71EA4F098001FF0C4 /* AppBase */ = {
 			isa = PBXGroup;
 			children = (
+				33AEBB2C1EA4FAA5001FF0C4 /* NENavigationController.h */,
+				33AEBB2D1EA4FAA5001FF0C4 /* NENavigationController.m */,
+				33AEBB2F1EA4FABD001FF0C4 /* NEBaseController.h */,
+				33AEBB301EA4FABD001FF0C4 /* NEBaseController.m */,
+				33AEBB321EA4FADA001FF0C4 /* NETabbarController.h */,
+				33AEBB331EA4FADA001FF0C4 /* NETabbarController.m */,
 			);
 			path = AppBase;
 			sourceTree = "<group>";
@@ -171,6 +190,23 @@
 				33AEBB281EA4F469001FF0C4 /* NEBaseRequest.m */,
 			);
 			path = AppConfig;
+			sourceTree = "<group>";
+		};
+		33AEBB351EA4FAEA001FF0C4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBB361EA4FAFC001FF0C4 /* HomePager */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		33AEBB361EA4FAFC001FF0C4 /* HomePager */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBB371EA4FB0A001FF0C4 /* HomeController.h */,
+				33AEBB381EA4FB0A001FF0C4 /* HomeController.m */,
+			);
+			path = HomePager;
 			sourceTree = "<group>";
 		};
 		42B6E6B532E16A68E02CCAF4 /* Frameworks */ = {
@@ -315,10 +351,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33AEBB391EA4FB0A001FF0C4 /* HomeController.m in Sources */,
 				33AEBA931EA4E8E1001FF0C4 /* ViewController.m in Sources */,
 				33AEBB291EA4F469001FF0C4 /* NEBaseRequest.m in Sources */,
+				33AEBB2E1EA4FAA5001FF0C4 /* NENavigationController.m in Sources */,
 				33AEBA901EA4E8E1001FF0C4 /* AppDelegate.m in Sources */,
+				33AEBB341EA4FADA001FF0C4 /* NETabbarController.m in Sources */,
 				33AEBA8D1EA4E8E1001FF0C4 /* main.m in Sources */,
+				33AEBB311EA4FABD001FF0C4 /* NEBaseController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
