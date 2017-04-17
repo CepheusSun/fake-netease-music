@@ -13,13 +13,12 @@
 		33AEBA961EA4E8E1001FF0C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBA941EA4E8E1001FF0C4 /* Main.storyboard */; };
 		33AEBA981EA4E8E1001FF0C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBA971EA4E8E1001FF0C4 /* Assets.xcassets */; };
 		33AEBA9B1EA4E8E1001FF0C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBA991EA4E8E1001FF0C4 /* LaunchScreen.storyboard */; };
-		33AEBB231EA4F41D001FF0C4 /* SYNetworkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AEBB221EA4F41D001FF0C4 /* SYNetworkFramework.framework */; };
 		33AEBB291EA4F469001FF0C4 /* NEBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB281EA4F469001FF0C4 /* NEBaseRequest.m */; };
-		33AEBB2B1EA4F481001FF0C4 /* SYNetworkFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 33AEBB221EA4F41D001FF0C4 /* SYNetworkFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		33AEBB2E1EA4FAA5001FF0C4 /* NENavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB2D1EA4FAA5001FF0C4 /* NENavigationController.m */; };
 		33AEBB311EA4FABD001FF0C4 /* NEBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB301EA4FABD001FF0C4 /* NEBaseController.m */; };
 		33AEBB341EA4FADA001FF0C4 /* NETabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB331EA4FADA001FF0C4 /* NETabbarController.m */; };
 		33AEBB391EA4FB0A001FF0C4 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB381EA4FB0A001FF0C4 /* HomeController.m */; };
+		33AEBB3B1EA50D16001FF0C4 /* SYNetworkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AEBB3A1EA50D16001FF0C4 /* SYNetworkFramework.framework */; };
 		82F247F5AE0BCACF08AC5742 /* libPods-fake-netease-music.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +29,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				33AEBB2B1EA4F481001FF0C4 /* SYNetworkFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,7 +46,6 @@
 		33AEBA971EA4E8E1001FF0C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		33AEBA9A1EA4E8E1001FF0C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33AEBA9C1EA4E8E1001FF0C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33AEBB221EA4F41D001FF0C4 /* SYNetworkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SYNetworkFramework.framework; sourceTree = "<group>"; };
 		33AEBB271EA4F469001FF0C4 /* NEBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEBaseRequest.h; sourceTree = "<group>"; };
 		33AEBB281EA4F469001FF0C4 /* NEBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEBaseRequest.m; sourceTree = "<group>"; };
 		33AEBB2C1EA4FAA5001FF0C4 /* NENavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NENavigationController.h; sourceTree = "<group>"; };
@@ -59,6 +56,7 @@
 		33AEBB331EA4FADA001FF0C4 /* NETabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NETabbarController.m; sourceTree = "<group>"; };
 		33AEBB371EA4FB0A001FF0C4 /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
 		33AEBB381EA4FB0A001FF0C4 /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		33AEBB3A1EA50D16001FF0C4 /* SYNetworkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SYNetworkFramework.framework; sourceTree = "<group>"; };
 		7162621B7511145A510BA3B6 /* Pods-fake-netease-music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake-netease-music.release.xcconfig"; path = "Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music.release.xcconfig"; sourceTree = "<group>"; };
 		943D84572452F68D2A0A4E57 /* Pods-fake-netease-music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake-netease-music.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music.debug.xcconfig"; sourceTree = "<group>"; };
 		C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fake-netease-music.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33AEBB231EA4F41D001FF0C4 /* SYNetworkFramework.framework in Frameworks */,
+				33AEBB3B1EA50D16001FF0C4 /* SYNetworkFramework.framework in Frameworks */,
 				82F247F5AE0BCACF08AC5742 /* libPods-fake-netease-music.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +210,7 @@
 		42B6E6B532E16A68E02CCAF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				33AEBB221EA4F41D001FF0C4 /* SYNetworkFramework.framework */,
+				33AEBB3A1EA50D16001FF0C4 /* SYNetworkFramework.framework */,
 				C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */,
 			);
 			name = Frameworks;
