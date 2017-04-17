@@ -7,6 +7,10 @@
 //
 
 #import "HomeController.h"
+#import "PersonalityViewController.h"
+#import "RadioViewController.h"
+#import "RankViewController.h"
+#import "SongSheetViewController.h"
 
 @interface HomeController ()<WMPageControllerDelegate>
 
@@ -48,13 +52,47 @@
     return self.titles.count;
 }
 
+- (NSInteger)numbersOfChildControllersInPageController:(WMPageController *)pageController{
+    return self.titles.count;
+}
 
 - (NSString *)menuView:(WMMenuView *)menu titleAtIndex:(NSInteger)index {
     return self.titles[index];
 }
 
+
 - (UIViewController *)pageController:(WMPageController *)pageController viewControllerAtIndex:(NSInteger)index {
-    return [[UIViewController alloc] init];
+    
+    switch (index) {
+        case 0:{
+            PersonalityViewController *vc = [[PersonalityViewController alloc] init];
+            return vc;
+        }
+            break;
+            
+        case 1:{
+            SongSheetViewController *vc =[[SongSheetViewController alloc] init];
+            return vc;
+        }
+            break;
+            
+        case 2:{
+            RadioViewController *vc = [[RadioViewController alloc] init];
+            return vc;
+        }
+            break;
+            
+        case 3:{
+            RankViewController *vc = [[RankViewController alloc] init];
+            return vc;
+        }
+            break;
+            
+        default:{
+            return nil;
+        }
+            break;
+    }
 }
 
 @end
