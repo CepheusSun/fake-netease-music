@@ -289,4 +289,35 @@ static NSString * const SYUniqueIdentifierDefaultsKey = @"BFUniqueIdentifier";
            [UIDevice currentDevice].orientation == UIDeviceOrientationLandscapeRight;
 }
 
+
++ (void)makePhoneCall:(NSString *)number {
+    if (!number || number.length == 0) {
+        return;
+    }
+    NSString *URLString = [NSString stringWithFormat:@"tel://%@",number];
+    NSURL *url = [NSURL URLWithString:URLString];
+    if ([[UIApplication sharedApplication] canOpenURL:url]) {
+        [[UIApplication sharedApplication] openURL:url];
+    }
+}
+
++ (void)openURLWithSafary:(NSString *)URL {
+    if (URL && ![URL hasPrefix:@"https://"]) {
+        if (![URL hasPrefix:@"http://"]) {
+            URL = [NSString stringWithFormat:@"http://%@", URL];
+        }
+    }
+    NSURL *myURL = [NSURL URLWithString:URL];
+    if ([[UIApplication sharedApplication] canOpenURL:myURL]) {
+        [[UIApplication sharedApplication] openURL:myURL];
+    }
+}
+
++ (void)openSystemURL:(NSString *)URL {
+    NSURL *sysURL = [NSURL URLWithString:URL];
+    if ([[UIApplication sharedApplication] canOpenURL:sysURL]) {
+        [[UIApplication sharedApplication] openURL:sysURL];
+    }
+}
+
 @end

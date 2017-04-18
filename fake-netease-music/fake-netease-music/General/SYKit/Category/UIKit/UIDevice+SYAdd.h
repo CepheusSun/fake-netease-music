@@ -73,4 +73,16 @@ typedef NS_ENUM(NSUInteger, DeviceScreenType) {
 #pragma mark - USerInterface
 // 是否横屏
 + (BOOL)isHorizontal;
+
+
+#pragma mark - Action
+/// 打电话
++ (void)makePhoneCall:(NSString *)number;
+
+/// safari打开网页
++ (void)openURLWithSafary:(NSString *)URL;
+
+/// 跳转系统协议
++ (void)openSystemURL:(NSString *)URL;
+
 @end
