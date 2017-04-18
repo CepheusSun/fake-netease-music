@@ -17,7 +17,7 @@
 #import "UIImage+SYAdd.h"
 #import "UIControl+SYAdd.h"
 #import "UIBarButtonItem+SYAdd.h"
-
+#import "NSObject+toast.h"
 
 ///-----------
 /// Foundation
@@ -27,6 +27,6 @@
 #import "NSArray+SYAdd.h"
 #import "NSDictionary+SYAdd.h"
 #import "NSObject+SYAdd.h"
-
+#import "NSDate+SYAdd.h"
 
 #endif /* SYCategory_h */
