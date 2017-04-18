@@ -35,6 +35,7 @@
 		33AEBB961EA5D5E5001FF0C4 /* NSObject+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB951EA5D5E5001FF0C4 /* NSObject+SYAdd.m */; };
 		33AEBB991EA5D6D8001FF0C4 /* UIImage+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB981EA5D6D8001FF0C4 /* UIImage+SYAdd.m */; };
 		33AEBB9C1EA5D7A6001FF0C4 /* UIControl+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB9B1EA5D7A6001FF0C4 /* UIControl+SYAdd.m */; };
+		33AEBB9F1EA5D8B7001FF0C4 /* UIBarButtonItem+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB9E1EA5D8B7001FF0C4 /* UIBarButtonItem+SYAdd.m */; };
 		82F247F5AE0BCACF08AC5742 /* libPods-fake-netease-music.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */; };
 /* End PBXBuildFile section */
 
@@ -102,6 +103,8 @@
 		33AEBB981EA5D6D8001FF0C4 /* UIImage+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SYAdd.m"; sourceTree = "<group>"; };
 		33AEBB9A1EA5D7A6001FF0C4 /* UIControl+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+SYAdd.h"; sourceTree = "<group>"; };
 		33AEBB9B1EA5D7A6001FF0C4 /* UIControl+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+SYAdd.m"; sourceTree = "<group>"; };
+		33AEBB9D1EA5D8B7001FF0C4 /* UIBarButtonItem+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SYAdd.h"; sourceTree = "<group>"; };
+		33AEBB9E1EA5D8B7001FF0C4 /* UIBarButtonItem+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SYAdd.m"; sourceTree = "<group>"; };
 		7162621B7511145A510BA3B6 /* Pods-fake-netease-music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake-netease-music.release.xcconfig"; path = "Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music.release.xcconfig"; sourceTree = "<group>"; };
 		943D84572452F68D2A0A4E57 /* Pods-fake-netease-music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake-netease-music.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music.debug.xcconfig"; sourceTree = "<group>"; };
 		C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fake-netease-music.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -454,6 +457,8 @@
 				33AEBB981EA5D6D8001FF0C4 /* UIImage+SYAdd.m */,
 				33AEBB9A1EA5D7A6001FF0C4 /* UIControl+SYAdd.h */,
 				33AEBB9B1EA5D7A6001FF0C4 /* UIControl+SYAdd.m */,
+				33AEBB9D1EA5D8B7001FF0C4 /* UIBarButtonItem+SYAdd.h */,
+				33AEBB9E1EA5D8B7001FF0C4 /* UIBarButtonItem+SYAdd.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -627,6 +632,7 @@
 				33AEBB291EA4F469001FF0C4 /* NEBaseRequest.m in Sources */,
 				33AEBB2E1EA4FAA5001FF0C4 /* NENavigationController.m in Sources */,
 				33AEBB961EA5D5E5001FF0C4 /* NSObject+SYAdd.m in Sources */,
+				33AEBB9F1EA5D8B7001FF0C4 /* UIBarButtonItem+SYAdd.m in Sources */,
 				33AEBA901EA4E8E1001FF0C4 /* AppDelegate.m in Sources */,
 				33AEBB341EA4FADA001FF0C4 /* NETabbarController.m in Sources */,
 				33AEBA8D1EA4E8E1001FF0C4 /* main.m in Sources */,
