@@ -11,7 +11,7 @@
 @implementation NEBaseRequest
 
 - (NSString *)url {
-    return @"http://localhost:3000/";
+    return @"http://192.168.3.34:3000";
 }
 
 - (NSString *)path {

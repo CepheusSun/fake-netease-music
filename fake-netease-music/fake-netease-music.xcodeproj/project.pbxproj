@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		038B64A5057BAEED0A8D8396 /* Pods_fake_netease_music.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEC76FF48DD0B3D3B8139FE /* Pods_fake_netease_music.framework */; };
-		18A2BCB11EA513450001ED7F /* SYNetworkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A2BCB01EA513450001ED7F /* SYNetworkFramework.framework */; };
 		33AEBA8D1EA4E8E1001FF0C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBA8C1EA4E8E1001FF0C4 /* main.m */; };
 		33AEBA901EA4E8E1001FF0C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBA8F1EA4E8E1001FF0C4 /* AppDelegate.m */; };
 		33AEBA931EA4E8E1001FF0C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBA921EA4E8E1001FF0C4 /* ViewController.m */; };
@@ -42,6 +41,9 @@
 		33AEBBAC1EA5F761001FF0C4 /* NSDate+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBBAB1EA5F761001FF0C4 /* NSDate+SYAdd.m */; };
 		33AEBBAF1EA5FB29001FF0C4 /* UITextField+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBBAE1EA5FB29001FF0C4 /* UITextField+SYAdd.m */; };
 		33AEBBB21EA5FB46001FF0C4 /* CALayer+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBBB11EA5FB46001FF0C4 /* CALayer+SYAdd.m */; };
+		33AEBBBC1EA608B3001FF0C4 /* NERankViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBBBB1EA608B3001FF0C4 /* NERankViewModel.m */; };
+		33AEBBBF1EA60E9E001FF0C4 /* NEBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBBBE1EA60E9E001FF0C4 /* NEBaseViewModel.m */; };
+		33AEBBC11EA619F7001FF0C4 /* SYNetworkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AEBBC01EA619F7001FF0C4 /* SYNetworkFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,7 +60,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		18A2BCB01EA513450001ED7F /* SYNetworkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SYNetworkFramework.framework; sourceTree = "<group>"; };
 		33AEBA881EA4E8E1001FF0C4 /* fake-netease-music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fake-netease-music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33AEBA8C1EA4E8E1001FF0C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		33AEBA8E1EA4E8E1001FF0C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "fake-netease-music/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
@@ -123,6 +124,11 @@
 		33AEBBB01EA5FB46001FF0C4 /* CALayer+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+SYAdd.h"; sourceTree = "<group>"; };
 		33AEBBB11EA5FB46001FF0C4 /* CALayer+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+SYAdd.m"; sourceTree = "<group>"; };
 		33AEBBB31EA5FF8B001FF0C4 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		33AEBBBA1EA608B3001FF0C4 /* NERankViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NERankViewModel.h; sourceTree = "<group>"; };
+		33AEBBBB1EA608B3001FF0C4 /* NERankViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NERankViewModel.m; sourceTree = "<group>"; };
+		33AEBBBD1EA60E9E001FF0C4 /* NEBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEBaseViewModel.h; sourceTree = "<group>"; };
+		33AEBBBE1EA60E9E001FF0C4 /* NEBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEBaseViewModel.m; sourceTree = "<group>"; };
+		33AEBBC01EA619F7001FF0C4 /* SYNetworkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SYNetworkFramework.framework; sourceTree = "<group>"; };
 		7162621B7511145A510BA3B6 /* Pods-fake-netease-music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake-netease-music.release.xcconfig"; path = "Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music.release.xcconfig"; sourceTree = "<group>"; };
 		943D84572452F68D2A0A4E57 /* Pods-fake-netease-music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake-netease-music.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music.debug.xcconfig"; sourceTree = "<group>"; };
 		FBEC76FF48DD0B3D3B8139FE /* Pods_fake_netease_music.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fake_netease_music.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,7 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18A2BCB11EA513450001ED7F /* SYNetworkFramework.framework in Frameworks */,
+				33AEBBC11EA619F7001FF0C4 /* SYNetworkFramework.framework in Frameworks */,
 				038B64A5057BAEED0A8D8396 /* Pods_fake_netease_music.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,6 +242,8 @@
 				33AEBB301EA4FABD001FF0C4 /* NEBaseController.m */,
 				33AEBB321EA4FADA001FF0C4 /* NETabbarController.h */,
 				33AEBB331EA4FADA001FF0C4 /* NETabbarController.m */,
+				33AEBBBD1EA60E9E001FF0C4 /* NEBaseViewModel.h */,
+				33AEBBBE1EA60E9E001FF0C4 /* NEBaseViewModel.m */,
 			);
 			path = AppBase;
 			sourceTree = "<group>";
@@ -367,6 +375,8 @@
 		33AEBB641EA5A851001FF0C4 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				33AEBBBA1EA608B3001FF0C4 /* NERankViewModel.h */,
+				33AEBBBB1EA608B3001FF0C4 /* NERankViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -528,7 +538,7 @@
 		42B6E6B532E16A68E02CCAF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				18A2BCB01EA513450001ED7F /* SYNetworkFramework.framework */,
+				33AEBBC01EA619F7001FF0C4 /* SYNetworkFramework.framework */,
 				FBEC76FF48DD0B3D3B8139FE /* Pods_fake_netease_music.framework */,
 			);
 			name = Frameworks;
@@ -674,12 +684,14 @@
 				33AEBBAC1EA5F761001FF0C4 /* NSDate+SYAdd.m in Sources */,
 				33AEBBB21EA5FB46001FF0C4 /* CALayer+SYAdd.m in Sources */,
 				33AEBBAF1EA5FB29001FF0C4 /* UITextField+SYAdd.m in Sources */,
+				33AEBBBC1EA608B3001FF0C4 /* NERankViewModel.m in Sources */,
 				33AEBB391EA4FB0A001FF0C4 /* HomeController.m in Sources */,
 				33AEBB891EA5B370001FF0C4 /* UIDevice+SYAdd.m in Sources */,
 				33AEBA931EA4E8E1001FF0C4 /* ViewController.m in Sources */,
 				33AEBB801EA5AC93001FF0C4 /* UIColor+SYAdd.m in Sources */,
 				33AEBB671EA5A851001FF0C4 /* RankViewController.m in Sources */,
 				33AEBB291EA4F469001FF0C4 /* NEBaseRequest.m in Sources */,
+				33AEBBBF1EA60E9E001FF0C4 /* NEBaseViewModel.m in Sources */,
 				33AEBB2E1EA4FAA5001FF0C4 /* NENavigationController.m in Sources */,
 				33AEBB961EA5D5E5001FF0C4 /* NSObject+SYAdd.m in Sources */,
 				33AEBB9F1EA5D8B7001FF0C4 /* UIBarButtonItem+SYAdd.m in Sources */,
@@ -817,6 +829,7 @@
 			baseConfigurationReference = 943D84572452F68D2A0A4E57 /* Pods-fake-netease-music.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				DEVELOPMENT_TEAM = 552B69TXM9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -836,6 +849,7 @@
 			baseConfigurationReference = 7162621B7511145A510BA3B6 /* Pods-fake-netease-music.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				DEVELOPMENT_TEAM = 552B69TXM9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

@@ -7,22 +7,31 @@
 //
 
 #import "RankViewController.h"
+#import "NERankViewModel.h"
 
 @interface RankViewController ()
 
+@property (nonatomic ,strong) NERankViewModel *viewModel;
 @end
 
 @implementation RankViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.viewModel = [[NERankViewModel alloc] init];
+    
+    [RACObserve(self.viewModel, data) subscribeNext:^(id x) {
+        NSLog(@"%@",x);
+    } error:^(NSError *error) {
+        NSLog(@"2");
+    } completed:^{
+        NSLog(@"3");
+    }];
     
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self.viewModel.sourceCommand execute:nil];
 }
-
 
 @end
