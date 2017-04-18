@@ -13,6 +13,6 @@
 /// UIKit
 ///------
 #import "UIColor+SYAdd"
-
+#import "UIDevice+SYAdd"
 
 #endif /* SYCategory_h */
