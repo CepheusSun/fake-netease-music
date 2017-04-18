@@ -12,7 +12,21 @@
 ///------
 /// UIKit
 ///------
-#import "UIColor+SYAdd"
-#import "UIDevice+SYAdd"
+#import "UIColor+SYAdd.h"
+#import "UIDevice+SYAdd.h"
+#import "UIImage+SYAdd.h"
+#import "UIControl+SYAdd.h"
+#import "UIBarButtonItem+SYAdd.h"
+
+
+///-----------
+/// Foundation
+///-----------
+
+#import "NSString+SYAdd.h"
+#import "NSArray+SYAdd.h"
+#import "NSDictionary+SYAdd.h"
+#import "NSObject+SYAdd.h"
+
 
 #endif /* SYCategory_h */

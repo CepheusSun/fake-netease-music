@@ -10,4 +10,21 @@
 
 @interface NSDictionary (SYAdd)
 
+/**
+ 对字典中的键值进行‘类URL’排序
+ 例如: {
+ a : 111,
+ e : 222,
+ c : 333,
+ b : 444
+ }
+ => a=111&b=444&c=333&e=222
+ */
+- (NSString *)dicURLSort;
+
+/**
+ 添加另外的字典的数据
+ */
+- (NSDictionary *)dicAppendingParams:(NSDictionary *)params;
+
 @end
