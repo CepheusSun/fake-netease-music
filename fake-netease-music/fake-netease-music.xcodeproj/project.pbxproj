@@ -29,6 +29,8 @@
 		33AEBB851EA5B317001FF0C4 /* RadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB831EA5B317001FF0C4 /* RadioViewController.m */; };
 		33AEBB861EA5B317001FF0C4 /* RadioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBB841EA5B317001FF0C4 /* RadioViewController.xib */; };
 		33AEBB891EA5B370001FF0C4 /* UIDevice+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB881EA5B370001FF0C4 /* UIDevice+SYAdd.m */; };
+		33AEBB8D1EA5CC9C001FF0C4 /* NSString+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB8C1EA5CC9C001FF0C4 /* NSString+SYAdd.m */; };
+		33AEBB901EA5CCAE001FF0C4 /* NSArray+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB8F1EA5CCAE001FF0C4 /* NSArray+SYAdd.m */; };
 		82F247F5AE0BCACF08AC5742 /* libPods-fake-netease-music.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +86,10 @@
 		33AEBB841EA5B317001FF0C4 /* RadioViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RadioViewController.xib; sourceTree = "<group>"; };
 		33AEBB871EA5B370001FF0C4 /* UIDevice+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+SYAdd.h"; sourceTree = "<group>"; };
 		33AEBB881EA5B370001FF0C4 /* UIDevice+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+SYAdd.m"; sourceTree = "<group>"; };
+		33AEBB8B1EA5CC9C001FF0C4 /* NSString+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SYAdd.h"; sourceTree = "<group>"; };
+		33AEBB8C1EA5CC9C001FF0C4 /* NSString+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SYAdd.m"; sourceTree = "<group>"; };
+		33AEBB8E1EA5CCAE001FF0C4 /* NSArray+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SYAdd.h"; sourceTree = "<group>"; };
+		33AEBB8F1EA5CCAE001FF0C4 /* NSArray+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SYAdd.m"; sourceTree = "<group>"; };
 		7162621B7511145A510BA3B6 /* Pods-fake-netease-music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake-netease-music.release.xcconfig"; path = "Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music.release.xcconfig"; sourceTree = "<group>"; };
 		943D84572452F68D2A0A4E57 /* Pods-fake-netease-music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake-netease-music.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music.debug.xcconfig"; sourceTree = "<group>"; };
 		C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fake-netease-music.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -419,6 +425,7 @@
 			isa = PBXGroup;
 			children = (
 				33AEBB811EA5B2C1001FF0C4 /* SYCategory.h */,
+				33AEBB8A1EA5CC8E001FF0C4 /* Foundation */,
 				33AEBB7D1EA5AC74001FF0C4 /* UIKit */,
 			);
 			path = Category;
@@ -433,6 +440,17 @@
 				33AEBB881EA5B370001FF0C4 /* UIDevice+SYAdd.m */,
 			);
 			path = UIKit;
+			sourceTree = "<group>";
+		};
+		33AEBB8A1EA5CC8E001FF0C4 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBB8B1EA5CC9C001FF0C4 /* NSString+SYAdd.h */,
+				33AEBB8C1EA5CC9C001FF0C4 /* NSString+SYAdd.m */,
+				33AEBB8E1EA5CCAE001FF0C4 /* NSArray+SYAdd.h */,
+				33AEBB8F1EA5CCAE001FF0C4 /* NSArray+SYAdd.m */,
+			);
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 		42B6E6B532E16A68E02CCAF4 /* Frameworks */ = {
@@ -591,10 +609,12 @@
 				33AEBA901EA4E8E1001FF0C4 /* AppDelegate.m in Sources */,
 				33AEBB341EA4FADA001FF0C4 /* NETabbarController.m in Sources */,
 				33AEBA8D1EA4E8E1001FF0C4 /* main.m in Sources */,
+				33AEBB901EA5CCAE001FF0C4 /* NSArray+SYAdd.m in Sources */,
 				33AEBB851EA5B317001FF0C4 /* RadioViewController.m in Sources */,
 				33AEBB311EA4FABD001FF0C4 /* NEBaseController.m in Sources */,
 				33AEBB5E1EA5A7E6001FF0C4 /* SongSheetViewController.m in Sources */,
 				33AEBB701EA5A85A001FF0C4 /* PersonalityViewController.m in Sources */,
+				33AEBB8D1EA5CC9C001FF0C4 /* NSString+SYAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
