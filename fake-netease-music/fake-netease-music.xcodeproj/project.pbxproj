@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		038B64A5057BAEED0A8D8396 /* Pods_fake_netease_music.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEC76FF48DD0B3D3B8139FE /* Pods_fake_netease_music.framework */; };
 		18A2BCB11EA513450001ED7F /* SYNetworkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A2BCB01EA513450001ED7F /* SYNetworkFramework.framework */; };
 		33AEBA8D1EA4E8E1001FF0C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBA8C1EA4E8E1001FF0C4 /* main.m */; };
 		33AEBA901EA4E8E1001FF0C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBA8F1EA4E8E1001FF0C4 /* AppDelegate.m */; };
@@ -41,7 +42,6 @@
 		33AEBBAC1EA5F761001FF0C4 /* NSDate+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBBAB1EA5F761001FF0C4 /* NSDate+SYAdd.m */; };
 		33AEBBAF1EA5FB29001FF0C4 /* UITextField+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBBAE1EA5FB29001FF0C4 /* UITextField+SYAdd.m */; };
 		33AEBBB21EA5FB46001FF0C4 /* CALayer+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBBB11EA5FB46001FF0C4 /* CALayer+SYAdd.m */; };
-		82F247F5AE0BCACF08AC5742 /* libPods-fake-netease-music.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -125,7 +125,7 @@
 		33AEBBB31EA5FF8B001FF0C4 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		7162621B7511145A510BA3B6 /* Pods-fake-netease-music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake-netease-music.release.xcconfig"; path = "Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music.release.xcconfig"; sourceTree = "<group>"; };
 		943D84572452F68D2A0A4E57 /* Pods-fake-netease-music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake-netease-music.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music.debug.xcconfig"; sourceTree = "<group>"; };
-		C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fake-netease-music.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEC76FF48DD0B3D3B8139FE /* Pods_fake_netease_music.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fake_netease_music.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A2BCB11EA513450001ED7F /* SYNetworkFramework.framework in Frameworks */,
-				82F247F5AE0BCACF08AC5742 /* libPods-fake-netease-music.a in Frameworks */,
+				038B64A5057BAEED0A8D8396 /* Pods_fake_netease_music.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,7 +529,7 @@
 			isa = PBXGroup;
 			children = (
 				18A2BCB01EA513450001ED7F /* SYNetworkFramework.framework */,
-				C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */,
+				FBEC76FF48DD0B3D3B8139FE /* Pods_fake_netease_music.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
