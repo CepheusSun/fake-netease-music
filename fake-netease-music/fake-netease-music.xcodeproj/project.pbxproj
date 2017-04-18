@@ -25,9 +25,9 @@
 		33AEBB681EA5A851001FF0C4 /* RankViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBB631EA5A851001FF0C4 /* RankViewController.xib */; };
 		33AEBB701EA5A85A001FF0C4 /* PersonalityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB6B1EA5A85A001FF0C4 /* PersonalityViewController.m */; };
 		33AEBB711EA5A85A001FF0C4 /* PersonalityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBB6C1EA5A85A001FF0C4 /* PersonalityViewController.xib */; };
-		33AEBB791EA5A865001FF0C4 /* RankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB741EA5A865001FF0C4 /* RankViewController.m */; };
-		33AEBB7A1EA5A865001FF0C4 /* RankViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBB751EA5A865001FF0C4 /* RankViewController.xib */; };
 		33AEBB801EA5AC93001FF0C4 /* UIColor+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB7F1EA5AC93001FF0C4 /* UIColor+SYAdd.m */; };
+		33AEBB851EA5B317001FF0C4 /* RadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB831EA5B317001FF0C4 /* RadioViewController.m */; };
+		33AEBB861EA5B317001FF0C4 /* RadioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBB841EA5B317001FF0C4 /* RadioViewController.xib */; };
 		82F247F5AE0BCACF08AC5742 /* libPods-fake-netease-music.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */; };
 /* End PBXBuildFile section */
 
@@ -75,11 +75,12 @@
 		33AEBB6A1EA5A85A001FF0C4 /* PersonalityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalityViewController.h; sourceTree = "<group>"; };
 		33AEBB6B1EA5A85A001FF0C4 /* PersonalityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalityViewController.m; sourceTree = "<group>"; };
 		33AEBB6C1EA5A85A001FF0C4 /* PersonalityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalityViewController.xib; sourceTree = "<group>"; };
-		33AEBB731EA5A865001FF0C4 /* RankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankViewController.h; sourceTree = "<group>"; };
-		33AEBB741EA5A865001FF0C4 /* RankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankViewController.m; sourceTree = "<group>"; };
-		33AEBB751EA5A865001FF0C4 /* RankViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RankViewController.xib; sourceTree = "<group>"; };
 		33AEBB7E1EA5AC93001FF0C4 /* UIColor+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SYAdd.h"; sourceTree = "<group>"; };
 		33AEBB7F1EA5AC93001FF0C4 /* UIColor+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SYAdd.m"; sourceTree = "<group>"; };
+		33AEBB811EA5B2C1001FF0C4 /* SYCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYCategory.h; sourceTree = "<group>"; };
+		33AEBB821EA5B317001FF0C4 /* RadioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioViewController.h; sourceTree = "<group>"; };
+		33AEBB831EA5B317001FF0C4 /* RadioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioViewController.m; sourceTree = "<group>"; };
+		33AEBB841EA5B317001FF0C4 /* RadioViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RadioViewController.xib; sourceTree = "<group>"; };
 		7162621B7511145A510BA3B6 /* Pods-fake-netease-music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake-netease-music.release.xcconfig"; path = "Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music.release.xcconfig"; sourceTree = "<group>"; };
 		943D84572452F68D2A0A4E57 /* Pods-fake-netease-music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake-netease-music.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music.debug.xcconfig"; sourceTree = "<group>"; };
 		C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fake-netease-music.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -375,9 +376,9 @@
 		33AEBB721EA5A865001FF0C4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				33AEBB731EA5A865001FF0C4 /* RankViewController.h */,
-				33AEBB741EA5A865001FF0C4 /* RankViewController.m */,
-				33AEBB751EA5A865001FF0C4 /* RankViewController.xib */,
+				33AEBB821EA5B317001FF0C4 /* RadioViewController.h */,
+				33AEBB831EA5B317001FF0C4 /* RadioViewController.m */,
+				33AEBB841EA5B317001FF0C4 /* RadioViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -414,6 +415,7 @@
 		33AEBB7C1EA5AA10001FF0C4 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				33AEBB811EA5B2C1001FF0C4 /* SYCategory.h */,
 				33AEBB7D1EA5AC74001FF0C4 /* UIKit */,
 			);
 			path = Category;
@@ -514,8 +516,8 @@
 				33AEBA981EA4E8E1001FF0C4 /* Assets.xcassets in Resources */,
 				33AEBB5F1EA5A7E6001FF0C4 /* SongSheetViewController.xib in Resources */,
 				33AEBB681EA5A851001FF0C4 /* RankViewController.xib in Resources */,
-				33AEBB7A1EA5A865001FF0C4 /* RankViewController.xib in Resources */,
 				33AEBA961EA4E8E1001FF0C4 /* Main.storyboard in Resources */,
+				33AEBB861EA5B317001FF0C4 /* RadioViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,7 +578,6 @@
 			files = (
 				33AEBB391EA4FB0A001FF0C4 /* HomeController.m in Sources */,
 				33AEBA931EA4E8E1001FF0C4 /* ViewController.m in Sources */,
-				33AEBB791EA5A865001FF0C4 /* RankViewController.m in Sources */,
 				33AEBB801EA5AC93001FF0C4 /* UIColor+SYAdd.m in Sources */,
 				33AEBB671EA5A851001FF0C4 /* RankViewController.m in Sources */,
 				33AEBB291EA4F469001FF0C4 /* NEBaseRequest.m in Sources */,
@@ -584,6 +585,7 @@
 				33AEBA901EA4E8E1001FF0C4 /* AppDelegate.m in Sources */,
 				33AEBB341EA4FADA001FF0C4 /* NETabbarController.m in Sources */,
 				33AEBA8D1EA4E8E1001FF0C4 /* main.m in Sources */,
+				33AEBB851EA5B317001FF0C4 /* RadioViewController.m in Sources */,
 				33AEBB311EA4FABD001FF0C4 /* NEBaseController.m in Sources */,
 				33AEBB5E1EA5A7E6001FF0C4 /* SongSheetViewController.m in Sources */,
 				33AEBB701EA5A85A001FF0C4 /* PersonalityViewController.m in Sources */,
