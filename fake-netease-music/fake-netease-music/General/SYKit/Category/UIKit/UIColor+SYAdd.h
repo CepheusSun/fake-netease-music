@@ -34,4 +34,15 @@ alpha:          1.0]
 
 ///  随机色
 + (UIColor *)randomColor;
+
+/**
+ 渐变颜色
+ @param fromColor From Color
+ @param toColor To Color
+ @param height Height
+ @return Return a UIColor Instance with gradient
+ */
++ (UIColor *)gradientFrom:(UIColor *)fromColor
+                       to:(UIColor *)toColor
+                   height:(CGFloat)height;
 @end
