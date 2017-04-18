@@ -30,4 +30,17 @@
     }
     return dic;
 }
+
+- (NSString *)convertToJSONString {
+    NSError *error = nil;
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:self
+                                                       options:NSJSONWritingPrettyPrinted
+                                                         error:&error];
+    if (jsonData == nil) {
+        return nil;
+    }
+    NSString *res = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+    return res;
+    
+}
 @end

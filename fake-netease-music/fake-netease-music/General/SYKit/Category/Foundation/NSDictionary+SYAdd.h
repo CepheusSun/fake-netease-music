@@ -27,4 +27,9 @@
  */
 - (NSDictionary *)dicAppendingParams:(NSDictionary *)params;
 
+
+/**
+ 转换成Json数组
+ */
+- (NSString *)convertToJSONString;
 @end

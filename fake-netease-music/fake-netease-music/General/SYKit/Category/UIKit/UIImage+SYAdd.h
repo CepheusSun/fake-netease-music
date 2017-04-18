@@ -9,11 +9,14 @@
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
-@interface UIImage (SYAdd)
 
 UIKIT_EXTERN void imageWriteToSavedPhotosAlbum(UIImage *image, void(^completetionBlock)(NSError *));
 
 UIKIT_EXTERN void saveVideoAtURLToSavedPhotosAlbum(NSURL *videoURL, void(^completetionBlock)(NSError *));
+
+@interface UIImage (SYAdd)
+
+
 
 @end
 NS_ASSUME_NONNULL_END

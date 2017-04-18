@@ -11,5 +11,5 @@ target 'fake-netease-music' do
     pod 'BlocksKit'
     pod 'YYWebImage'
     pod 'WMPageController'
-
+    pod 'MBProgressHUD'
 end

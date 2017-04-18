@@ -36,6 +36,8 @@
 		33AEBB991EA5D6D8001FF0C4 /* UIImage+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB981EA5D6D8001FF0C4 /* UIImage+SYAdd.m */; };
 		33AEBB9C1EA5D7A6001FF0C4 /* UIControl+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB9B1EA5D7A6001FF0C4 /* UIControl+SYAdd.m */; };
 		33AEBB9F1EA5D8B7001FF0C4 /* UIBarButtonItem+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB9E1EA5D8B7001FF0C4 /* UIBarButtonItem+SYAdd.m */; };
+		33AEBBA51EA5E034001FF0C4 /* SYFrameLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBBA41EA5E034001FF0C4 /* SYFrameLayout.m */; };
+		33AEBBA91EA5ED35001FF0C4 /* NSObject+toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBBA81EA5ED35001FF0C4 /* NSObject+toast.m */; };
 		82F247F5AE0BCACF08AC5742 /* libPods-fake-netease-music.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */; };
 /* End PBXBuildFile section */
 
@@ -105,6 +107,12 @@
 		33AEBB9B1EA5D7A6001FF0C4 /* UIControl+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+SYAdd.m"; sourceTree = "<group>"; };
 		33AEBB9D1EA5D8B7001FF0C4 /* UIBarButtonItem+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SYAdd.h"; sourceTree = "<group>"; };
 		33AEBB9E1EA5D8B7001FF0C4 /* UIBarButtonItem+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SYAdd.m"; sourceTree = "<group>"; };
+		33AEBBA11EA5DE57001FF0C4 /* SYMarcos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYMarcos.h; sourceTree = "<group>"; };
+		33AEBBA31EA5E034001FF0C4 /* SYFrameLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFrameLayout.h; sourceTree = "<group>"; };
+		33AEBBA41EA5E034001FF0C4 /* SYFrameLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFrameLayout.m; sourceTree = "<group>"; };
+		33AEBBA61EA5E626001FF0C4 /* SYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYKit.h; sourceTree = "<group>"; };
+		33AEBBA71EA5ED35001FF0C4 /* NSObject+toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+toast.h"; sourceTree = "<group>"; };
+		33AEBBA81EA5ED35001FF0C4 /* NSObject+toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+toast.m"; sourceTree = "<group>"; };
 		7162621B7511145A510BA3B6 /* Pods-fake-netease-music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake-netease-music.release.xcconfig"; path = "Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music.release.xcconfig"; sourceTree = "<group>"; };
 		943D84572452F68D2A0A4E57 /* Pods-fake-netease-music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake-netease-music.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music.debug.xcconfig"; sourceTree = "<group>"; };
 		C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fake-netease-music.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -431,6 +439,9 @@
 		33AEBB7B1EA5A9C6001FF0C4 /* SYKit */ = {
 			isa = PBXGroup;
 			children = (
+				33AEBBA61EA5E626001FF0C4 /* SYKit.h */,
+				33AEBBA21EA5E020001FF0C4 /* Utils */,
+				33AEBBA01EA5DE42001FF0C4 /* Macros */,
 				33AEBB7C1EA5AA10001FF0C4 /* Category */,
 			);
 			path = SYKit;
@@ -459,6 +470,8 @@
 				33AEBB9B1EA5D7A6001FF0C4 /* UIControl+SYAdd.m */,
 				33AEBB9D1EA5D8B7001FF0C4 /* UIBarButtonItem+SYAdd.h */,
 				33AEBB9E1EA5D8B7001FF0C4 /* UIBarButtonItem+SYAdd.m */,
+				33AEBBA71EA5ED35001FF0C4 /* NSObject+toast.h */,
+				33AEBBA81EA5ED35001FF0C4 /* NSObject+toast.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -476,6 +489,23 @@
 				33AEBB951EA5D5E5001FF0C4 /* NSObject+SYAdd.m */,
 			);
 			path = Foundation;
+			sourceTree = "<group>";
+		};
+		33AEBBA01EA5DE42001FF0C4 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBBA11EA5DE57001FF0C4 /* SYMarcos.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		33AEBBA21EA5E020001FF0C4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBBA31EA5E034001FF0C4 /* SYFrameLayout.h */,
+				33AEBBA41EA5E034001FF0C4 /* SYFrameLayout.m */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		42B6E6B532E16A68E02CCAF4 /* Frameworks */ = {
@@ -633,6 +663,7 @@
 				33AEBB2E1EA4FAA5001FF0C4 /* NENavigationController.m in Sources */,
 				33AEBB961EA5D5E5001FF0C4 /* NSObject+SYAdd.m in Sources */,
 				33AEBB9F1EA5D8B7001FF0C4 /* UIBarButtonItem+SYAdd.m in Sources */,
+				33AEBBA51EA5E034001FF0C4 /* SYFrameLayout.m in Sources */,
 				33AEBA901EA4E8E1001FF0C4 /* AppDelegate.m in Sources */,
 				33AEBB341EA4FADA001FF0C4 /* NETabbarController.m in Sources */,
 				33AEBA8D1EA4E8E1001FF0C4 /* main.m in Sources */,
@@ -642,6 +673,7 @@
 				33AEBB5E1EA5A7E6001FF0C4 /* SongSheetViewController.m in Sources */,
 				33AEBB9C1EA5D7A6001FF0C4 /* UIControl+SYAdd.m in Sources */,
 				33AEBB931EA5D527001FF0C4 /* NSDictionary+SYAdd.m in Sources */,
+				33AEBBA91EA5ED35001FF0C4 /* NSObject+toast.m in Sources */,
 				33AEBB701EA5A85A001FF0C4 /* PersonalityViewController.m in Sources */,
 				33AEBB8D1EA5CC9C001FF0C4 /* NSString+SYAdd.m in Sources */,
 				33AEBB991EA5D6D8001FF0C4 /* UIImage+SYAdd.m in Sources */,
