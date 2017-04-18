@@ -122,6 +122,7 @@
 		33AEBBAE1EA5FB29001FF0C4 /* UITextField+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+SYAdd.m"; sourceTree = "<group>"; };
 		33AEBBB01EA5FB46001FF0C4 /* CALayer+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+SYAdd.h"; sourceTree = "<group>"; };
 		33AEBBB11EA5FB46001FF0C4 /* CALayer+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+SYAdd.m"; sourceTree = "<group>"; };
+		33AEBBB31EA5FF8B001FF0C4 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		7162621B7511145A510BA3B6 /* Pods-fake-netease-music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake-netease-music.release.xcconfig"; path = "Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music.release.xcconfig"; sourceTree = "<group>"; };
 		943D84572452F68D2A0A4E57 /* Pods-fake-netease-music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake-netease-music.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music.debug.xcconfig"; sourceTree = "<group>"; };
 		C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fake-netease-music.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -180,6 +181,7 @@
 				33AEBA991EA4E8E1001FF0C4 /* LaunchScreen.storyboard */,
 				33AEBA9C1EA4E8E1001FF0C4 /* Info.plist */,
 				33AEBA8C1EA4E8E1001FF0C4 /* main.m */,
+				33AEBBB31EA5FF8B001FF0C4 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -820,6 +822,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PREFIX_HEADER = "fake-netease-music/PrefixHeader.pch";
 				INFOPLIST_FILE = "fake-netease-music/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -838,6 +841,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PREFIX_HEADER = "fake-netease-music/PrefixHeader.pch";
 				INFOPLIST_FILE = "fake-netease-music/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
