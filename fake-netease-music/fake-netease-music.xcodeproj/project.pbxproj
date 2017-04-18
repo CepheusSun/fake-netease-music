@@ -27,6 +27,7 @@
 		33AEBB711EA5A85A001FF0C4 /* PersonalityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBB6C1EA5A85A001FF0C4 /* PersonalityViewController.xib */; };
 		33AEBB791EA5A865001FF0C4 /* RankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB741EA5A865001FF0C4 /* RankViewController.m */; };
 		33AEBB7A1EA5A865001FF0C4 /* RankViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBB751EA5A865001FF0C4 /* RankViewController.xib */; };
+		33AEBB801EA5AC93001FF0C4 /* UIColor+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB7F1EA5AC93001FF0C4 /* UIColor+SYAdd.m */; };
 		82F247F5AE0BCACF08AC5742 /* libPods-fake-netease-music.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +78,8 @@
 		33AEBB731EA5A865001FF0C4 /* RankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankViewController.h; sourceTree = "<group>"; };
 		33AEBB741EA5A865001FF0C4 /* RankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankViewController.m; sourceTree = "<group>"; };
 		33AEBB751EA5A865001FF0C4 /* RankViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RankViewController.xib; sourceTree = "<group>"; };
+		33AEBB7E1EA5AC93001FF0C4 /* UIColor+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SYAdd.h"; sourceTree = "<group>"; };
+		33AEBB7F1EA5AC93001FF0C4 /* UIColor+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SYAdd.m"; sourceTree = "<group>"; };
 		7162621B7511145A510BA3B6 /* Pods-fake-netease-music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake-netease-music.release.xcconfig"; path = "Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music.release.xcconfig"; sourceTree = "<group>"; };
 		943D84572452F68D2A0A4E57 /* Pods-fake-netease-music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake-netease-music.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music.debug.xcconfig"; sourceTree = "<group>"; };
 		C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fake-netease-music.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +145,7 @@
 		33AEBAA21EA4EFAB001FF0C4 /* General */ = {
 			isa = PBXGroup;
 			children = (
+				33AEBB7B1EA5A9C6001FF0C4 /* SYKit */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -399,6 +403,31 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		33AEBB7B1EA5A9C6001FF0C4 /* SYKit */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBB7C1EA5AA10001FF0C4 /* Category */,
+			);
+			path = SYKit;
+			sourceTree = "<group>";
+		};
+		33AEBB7C1EA5AA10001FF0C4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBB7D1EA5AC74001FF0C4 /* UIKit */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		33AEBB7D1EA5AC74001FF0C4 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBB7E1EA5AC93001FF0C4 /* UIColor+SYAdd.h */,
+				33AEBB7F1EA5AC93001FF0C4 /* UIColor+SYAdd.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 		42B6E6B532E16A68E02CCAF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -548,6 +577,7 @@
 				33AEBB391EA4FB0A001FF0C4 /* HomeController.m in Sources */,
 				33AEBA931EA4E8E1001FF0C4 /* ViewController.m in Sources */,
 				33AEBB791EA5A865001FF0C4 /* RankViewController.m in Sources */,
+				33AEBB801EA5AC93001FF0C4 /* UIColor+SYAdd.m in Sources */,
 				33AEBB671EA5A851001FF0C4 /* RankViewController.m in Sources */,
 				33AEBB291EA4F469001FF0C4 /* NEBaseRequest.m in Sources */,
 				33AEBB2E1EA4FAA5001FF0C4 /* NENavigationController.m in Sources */,
