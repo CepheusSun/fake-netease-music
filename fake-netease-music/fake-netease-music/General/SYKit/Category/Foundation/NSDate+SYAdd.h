@@ -37,4 +37,14 @@
 
 - (NSString*)weekdayStr;
 
++ (NSString*)timeInterval1970_13:(NSDate*)date;
++ (NSString*)timeInterval1970_10:(NSDate*)date;
++ (NSDate*)currentDateCMT;
+
+
+
+
+
+
+
 @end

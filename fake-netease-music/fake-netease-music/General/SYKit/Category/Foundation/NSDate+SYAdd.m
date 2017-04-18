@@ -298,20 +298,39 @@
     NSDate * currDate = [NSDate dateWithTimeIntervalSince1970:currSecond];
     return currDate;
 }
-+ (NSDate*)dateWithFormat:(NSString *)format
-{
+
++ (NSDate*)dateWithFormat:(NSString *)format {
     NSDateFormatter * df2 = [[NSDateFormatter alloc] init];
     [df2 setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
     NSDate * date =[df2 dateFromString:format];
     return date;
 }
+
 + (long long)timeStamp {
     return (long long)[[NSDate date] timeIntervalSince1970];
 }
+
 + (NSDate *)now {
     return [NSDate date];
 }
 
++ (NSString*)timeInterval1970_13:(NSDate*)date {
+    NSTimeInterval timeInterval =[date timeIntervalSince1970]*1000;
+    return [NSString stringWithFormat:@"%.0f",timeInterval];
+}
+
++ (NSString*)timeInterval1970_10:(NSDate*)date {
+    NSTimeInterval timeInterval =[date timeIntervalSince1970];
+    return [NSString stringWithFormat:@"%.0f",timeInterval];
+}
+
++ (NSDate*)currentDateCMT {
+    NSDate *curDate = [NSDate date];
+    NSTimeZone *timeZone = [NSTimeZone systemTimeZone];
+    NSInteger interval = [timeZone secondsFromGMTForDate:curDate];
+    NSDate *localDate = [curDate  dateByAddingTimeInterval: interval];
+    return localDate;
+}
 
 
 
