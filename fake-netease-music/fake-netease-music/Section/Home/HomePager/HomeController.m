@@ -39,10 +39,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"发现音乐";
-   
+    self.view.backgroundColor = [UIColor orangeColor];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
     [self reloadData];
 }
 
