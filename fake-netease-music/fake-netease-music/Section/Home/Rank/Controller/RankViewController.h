@@ -1,5 +1,5 @@
 //
-//  RadioViewController.h
+//  RankViewController.h
 //  fake-netease-music
 //
 //  Created by QianYuZ on 2017/4/17.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RadioViewController : UIViewController
+@interface RankViewController : UIViewController
 
 @end
