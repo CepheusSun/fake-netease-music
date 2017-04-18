@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A2BCB11EA513450001ED7F /* SYNetworkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A2BCB01EA513450001ED7F /* SYNetworkFramework.framework */; };
+		18A2BCB91EA515F60001ED7F /* PersonalityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A2BCB71EA515F60001ED7F /* PersonalityViewController.m */; };
+		18A2BCBA1EA515F60001ED7F /* PersonalityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A2BCB81EA515F60001ED7F /* PersonalityViewController.xib */; };
+		18A2BCBE1EA5160B0001ED7F /* RadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A2BCBC1EA5160B0001ED7F /* RadioViewController.m */; };
+		18A2BCBF1EA5160B0001ED7F /* RadioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A2BCBD1EA5160B0001ED7F /* RadioViewController.xib */; };
+		18A2BCC31EA5161A0001ED7F /* RankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A2BCC11EA5161A0001ED7F /* RankViewController.m */; };
+		18A2BCC41EA5161A0001ED7F /* RankViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A2BCC21EA5161A0001ED7F /* RankViewController.xib */; };
+		18A2BCC81EA516310001ED7F /* SongSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A2BCC61EA516310001ED7F /* SongSheetViewController.m */; };
+		18A2BCC91EA516310001ED7F /* SongSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A2BCC71EA516310001ED7F /* SongSheetViewController.xib */; };
 		33AEBA8D1EA4E8E1001FF0C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBA8C1EA4E8E1001FF0C4 /* main.m */; };
 		33AEBA901EA4E8E1001FF0C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBA8F1EA4E8E1001FF0C4 /* AppDelegate.m */; };
 		33AEBA931EA4E8E1001FF0C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBA921EA4E8E1001FF0C4 /* ViewController.m */; };
 		33AEBA961EA4E8E1001FF0C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBA941EA4E8E1001FF0C4 /* Main.storyboard */; };
 		33AEBA981EA4E8E1001FF0C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBA971EA4E8E1001FF0C4 /* Assets.xcassets */; };
 		33AEBA9B1EA4E8E1001FF0C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBA991EA4E8E1001FF0C4 /* LaunchScreen.storyboard */; };
-		33AEBB231EA4F41D001FF0C4 /* SYNetworkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AEBB221EA4F41D001FF0C4 /* SYNetworkFramework.framework */; };
 		33AEBB291EA4F469001FF0C4 /* NEBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB281EA4F469001FF0C4 /* NEBaseRequest.m */; };
-		33AEBB2B1EA4F481001FF0C4 /* SYNetworkFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 33AEBB221EA4F41D001FF0C4 /* SYNetworkFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		33AEBB2E1EA4FAA5001FF0C4 /* NENavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB2D1EA4FAA5001FF0C4 /* NENavigationController.m */; };
 		33AEBB311EA4FABD001FF0C4 /* NEBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB301EA4FABD001FF0C4 /* NEBaseController.m */; };
 		33AEBB341EA4FADA001FF0C4 /* NETabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB331EA4FADA001FF0C4 /* NETabbarController.m */; };
@@ -30,7 +37,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				33AEBB2B1EA4F481001FF0C4 /* SYNetworkFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,6 +44,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		18A2BCB01EA513450001ED7F /* SYNetworkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SYNetworkFramework.framework; sourceTree = "<group>"; };
+		18A2BCB61EA515F60001ED7F /* PersonalityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalityViewController.h; sourceTree = "<group>"; };
+		18A2BCB71EA515F60001ED7F /* PersonalityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalityViewController.m; sourceTree = "<group>"; };
+		18A2BCB81EA515F60001ED7F /* PersonalityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalityViewController.xib; sourceTree = "<group>"; };
+		18A2BCBB1EA5160B0001ED7F /* RadioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioViewController.h; sourceTree = "<group>"; };
+		18A2BCBC1EA5160B0001ED7F /* RadioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioViewController.m; sourceTree = "<group>"; };
+		18A2BCBD1EA5160B0001ED7F /* RadioViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RadioViewController.xib; sourceTree = "<group>"; };
+		18A2BCC01EA5161A0001ED7F /* RankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankViewController.h; sourceTree = "<group>"; };
+		18A2BCC11EA5161A0001ED7F /* RankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankViewController.m; sourceTree = "<group>"; };
+		18A2BCC21EA5161A0001ED7F /* RankViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RankViewController.xib; sourceTree = "<group>"; };
+		18A2BCC51EA516310001ED7F /* SongSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongSheetViewController.h; sourceTree = "<group>"; };
+		18A2BCC61EA516310001ED7F /* SongSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongSheetViewController.m; sourceTree = "<group>"; };
+		18A2BCC71EA516310001ED7F /* SongSheetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SongSheetViewController.xib; sourceTree = "<group>"; };
 		33AEBA881EA4E8E1001FF0C4 /* fake-netease-music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fake-netease-music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33AEBA8C1EA4E8E1001FF0C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		33AEBA8E1EA4E8E1001FF0C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "fake-netease-music/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
@@ -48,7 +67,6 @@
 		33AEBA971EA4E8E1001FF0C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		33AEBA9A1EA4E8E1001FF0C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33AEBA9C1EA4E8E1001FF0C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33AEBB221EA4F41D001FF0C4 /* SYNetworkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SYNetworkFramework.framework; sourceTree = "<group>"; };
 		33AEBB271EA4F469001FF0C4 /* NEBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEBaseRequest.h; sourceTree = "<group>"; };
 		33AEBB281EA4F469001FF0C4 /* NEBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEBaseRequest.m; sourceTree = "<group>"; };
 		33AEBB2C1EA4FAA5001FF0C4 /* NENavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NENavigationController.h; sourceTree = "<group>"; };
@@ -69,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33AEBB231EA4F41D001FF0C4 /* SYNetworkFramework.framework in Frameworks */,
+				18A2BCB11EA513450001ED7F /* SYNetworkFramework.framework in Frameworks */,
 				82F247F5AE0BCACF08AC5742 /* libPods-fake-netease-music.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,6 +95,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18A2BCB21EA515770001ED7F /* Personality */ = {
+			isa = PBXGroup;
+			children = (
+				18A2BCB61EA515F60001ED7F /* PersonalityViewController.h */,
+				18A2BCB71EA515F60001ED7F /* PersonalityViewController.m */,
+				18A2BCB81EA515F60001ED7F /* PersonalityViewController.xib */,
+			);
+			path = Personality;
+			sourceTree = "<group>";
+		};
+		18A2BCB31EA515770001ED7F /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				18A2BCBB1EA5160B0001ED7F /* RadioViewController.h */,
+				18A2BCBC1EA5160B0001ED7F /* RadioViewController.m */,
+				18A2BCBD1EA5160B0001ED7F /* RadioViewController.xib */,
+			);
+			path = Radio;
+			sourceTree = "<group>";
+		};
+		18A2BCB41EA515770001ED7F /* Rank */ = {
+			isa = PBXGroup;
+			children = (
+				18A2BCC01EA5161A0001ED7F /* RankViewController.h */,
+				18A2BCC11EA5161A0001ED7F /* RankViewController.m */,
+				18A2BCC21EA5161A0001ED7F /* RankViewController.xib */,
+			);
+			path = Rank;
+			sourceTree = "<group>";
+		};
+		18A2BCB51EA515770001ED7F /* SongSheet */ = {
+			isa = PBXGroup;
+			children = (
+				18A2BCC51EA516310001ED7F /* SongSheetViewController.h */,
+				18A2BCC61EA516310001ED7F /* SongSheetViewController.m */,
+				18A2BCC71EA516310001ED7F /* SongSheetViewController.xib */,
+			);
+			path = SongSheet;
+			sourceTree = "<group>";
+		};
 		33AEBA7F1EA4E8E1001FF0C4 = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +263,10 @@
 			children = (
 				33AEBB371EA4FB0A001FF0C4 /* HomeController.h */,
 				33AEBB381EA4FB0A001FF0C4 /* HomeController.m */,
+				18A2BCB21EA515770001ED7F /* Personality */,
+				18A2BCB51EA515770001ED7F /* SongSheet */,
+				18A2BCB31EA515770001ED7F /* Radio */,
+				18A2BCB41EA515770001ED7F /* Rank */,
 			);
 			path = HomePager;
 			sourceTree = "<group>";
@@ -212,7 +274,7 @@
 		42B6E6B532E16A68E02CCAF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				33AEBB221EA4F41D001FF0C4 /* SYNetworkFramework.framework */,
+				18A2BCB01EA513450001ED7F /* SYNetworkFramework.framework */,
 				C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */,
 			);
 			name = Frameworks;
@@ -290,9 +352,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A2BCC41EA5161A0001ED7F /* RankViewController.xib in Resources */,
 				33AEBA9B1EA4E8E1001FF0C4 /* LaunchScreen.storyboard in Resources */,
 				33AEBA981EA4E8E1001FF0C4 /* Assets.xcassets in Resources */,
+				18A2BCC91EA516310001ED7F /* SongSheetViewController.xib in Resources */,
 				33AEBA961EA4E8E1001FF0C4 /* Main.storyboard in Resources */,
+				18A2BCBA1EA515F60001ED7F /* PersonalityViewController.xib in Resources */,
+				18A2BCBF1EA5160B0001ED7F /* RadioViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,9 +422,13 @@
 				33AEBB291EA4F469001FF0C4 /* NEBaseRequest.m in Sources */,
 				33AEBB2E1EA4FAA5001FF0C4 /* NENavigationController.m in Sources */,
 				33AEBA901EA4E8E1001FF0C4 /* AppDelegate.m in Sources */,
+				18A2BCB91EA515F60001ED7F /* PersonalityViewController.m in Sources */,
 				33AEBB341EA4FADA001FF0C4 /* NETabbarController.m in Sources */,
+				18A2BCC31EA5161A0001ED7F /* RankViewController.m in Sources */,
 				33AEBA8D1EA4E8E1001FF0C4 /* main.m in Sources */,
+				18A2BCBE1EA5160B0001ED7F /* RadioViewController.m in Sources */,
 				33AEBB311EA4FABD001FF0C4 /* NEBaseController.m in Sources */,
+				18A2BCC81EA516310001ED7F /* SongSheetViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
