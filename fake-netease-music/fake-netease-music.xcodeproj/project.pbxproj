@@ -8,22 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		038B64A5057BAEED0A8D8396 /* Pods_fake_netease_music.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEC76FF48DD0B3D3B8139FE /* Pods_fake_netease_music.framework */; };
+		337EF2651EA72DB600AF13CD /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 337EF2421EA72DB600AF13CD /* HomeController.m */; };
+		337EF2661EA72DB600AF13CD /* PersonalityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 337EF2461EA72DB600AF13CD /* PersonalityViewController.m */; };
+		337EF2671EA72DB600AF13CD /* PersonalityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 337EF2471EA72DB600AF13CD /* PersonalityViewController.xib */; };
+		337EF2681EA72DB600AF13CD /* RadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 337EF24E1EA72DB600AF13CD /* RadioViewController.m */; };
+		337EF26A1EA72DB600AF13CD /* RankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 337EF2561EA72DB600AF13CD /* RankViewController.m */; };
+		337EF26B1EA72DB600AF13CD /* RankViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 337EF2571EA72DB600AF13CD /* RankViewController.xib */; };
+		337EF26C1EA72DB600AF13CD /* NERankViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 337EF25C1EA72DB600AF13CD /* NERankViewModel.m */; };
+		337EF26D1EA72DB600AF13CD /* SongSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 337EF2601EA72DB600AF13CD /* SongSheetViewController.m */; };
+		337EF26E1EA72DB600AF13CD /* SongSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 337EF2611EA72DB600AF13CD /* SongSheetViewController.xib */; };
+		337EF2751EA72E0200AF13CD /* NEBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 337EF2701EA72E0200AF13CD /* NEBaseController.m */; };
+		337EF2761EA72E0200AF13CD /* NENavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 337EF2721EA72E0200AF13CD /* NENavigationController.m */; };
+		337EF2771EA72E0200AF13CD /* NETabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 337EF2741EA72E0200AF13CD /* NETabbarController.m */; };
+		337EF2781EA72F4700AF13CD /* RadioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 337EF24F1EA72DB600AF13CD /* RadioViewController.xib */; };
+		337EF2791EA72FA600AF13CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBA941EA4E8E1001FF0C4 /* Main.storyboard */; };
+		337EF27A1EA72FAE00AF13CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBA991EA4E8E1001FF0C4 /* LaunchScreen.storyboard */; };
 		33AEBA8D1EA4E8E1001FF0C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBA8C1EA4E8E1001FF0C4 /* main.m */; };
 		33AEBA901EA4E8E1001FF0C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBA8F1EA4E8E1001FF0C4 /* AppDelegate.m */; };
 		33AEBA931EA4E8E1001FF0C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBA921EA4E8E1001FF0C4 /* ViewController.m */; };
-		33AEBA961EA4E8E1001FF0C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBA941EA4E8E1001FF0C4 /* Main.storyboard */; };
 		33AEBA981EA4E8E1001FF0C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBA971EA4E8E1001FF0C4 /* Assets.xcassets */; };
-		33AEBA9B1EA4E8E1001FF0C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBA991EA4E8E1001FF0C4 /* LaunchScreen.storyboard */; };
 		33AEBB291EA4F469001FF0C4 /* NEBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB281EA4F469001FF0C4 /* NEBaseRequest.m */; };
-
-		33AEBB2E1EA4FAA5001FF0C4 /* NENavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB2D1EA4FAA5001FF0C4 /* NENavigationController.m */; };
-		33AEBB311EA4FABD001FF0C4 /* NEBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB301EA4FABD001FF0C4 /* NEBaseController.m */; };
-		33AEBB341EA4FADA001FF0C4 /* NETabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB331EA4FADA001FF0C4 /* NETabbarController.m */; };
-		33AEBB391EA4FB0A001FF0C4 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB381EA4FB0A001FF0C4 /* HomeController.m */; };
-        33AEBB711EA5A85A001FF0C4 /* PersonalityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBB6C1EA5A85A001FF0C4 /* PersonalityViewController.xib */; };
 		33AEBB801EA5AC93001FF0C4 /* UIColor+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB7F1EA5AC93001FF0C4 /* UIColor+SYAdd.m */; };
-		33AEBB851EA5B317001FF0C4 /* RadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB831EA5B317001FF0C4 /* RadioViewController.m */; };
-		33AEBB861EA5B317001FF0C4 /* RadioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBB841EA5B317001FF0C4 /* RadioViewController.xib */; };
 		33AEBB891EA5B370001FF0C4 /* UIDevice+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB881EA5B370001FF0C4 /* UIDevice+SYAdd.m */; };
 		33AEBB8D1EA5CC9C001FF0C4 /* NSString+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB8C1EA5CC9C001FF0C4 /* NSString+SYAdd.m */; };
 		33AEBB901EA5CCAE001FF0C4 /* NSArray+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB8F1EA5CCAE001FF0C4 /* NSArray+SYAdd.m */; };
@@ -37,7 +42,6 @@
 		33AEBBAC1EA5F761001FF0C4 /* NSDate+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBBAB1EA5F761001FF0C4 /* NSDate+SYAdd.m */; };
 		33AEBBAF1EA5FB29001FF0C4 /* UITextField+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBBAE1EA5FB29001FF0C4 /* UITextField+SYAdd.m */; };
 		33AEBBB21EA5FB46001FF0C4 /* CALayer+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBBB11EA5FB46001FF0C4 /* CALayer+SYAdd.m */; };
-		33AEBBBC1EA608B3001FF0C4 /* NERankViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBBBB1EA608B3001FF0C4 /* NERankViewModel.m */; };
 		33AEBBBF1EA60E9E001FF0C4 /* NEBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBBBE1EA60E9E001FF0C4 /* NEBaseViewModel.m */; };
 		33AEBBC11EA619F7001FF0C4 /* SYNetworkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AEBBC01EA619F7001FF0C4 /* SYNetworkFramework.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +60,28 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		337EF2411EA72DB600AF13CD /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		337EF2421EA72DB600AF13CD /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		337EF2451EA72DB600AF13CD /* PersonalityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalityViewController.h; sourceTree = "<group>"; };
+		337EF2461EA72DB600AF13CD /* PersonalityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalityViewController.m; sourceTree = "<group>"; };
+		337EF2471EA72DB600AF13CD /* PersonalityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalityViewController.xib; sourceTree = "<group>"; };
+		337EF24D1EA72DB600AF13CD /* RadioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioViewController.h; sourceTree = "<group>"; };
+		337EF24E1EA72DB600AF13CD /* RadioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioViewController.m; sourceTree = "<group>"; };
+		337EF24F1EA72DB600AF13CD /* RadioViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RadioViewController.xib; sourceTree = "<group>"; };
+		337EF2551EA72DB600AF13CD /* RankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankViewController.h; sourceTree = "<group>"; };
+		337EF2561EA72DB600AF13CD /* RankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankViewController.m; sourceTree = "<group>"; };
+		337EF2571EA72DB600AF13CD /* RankViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RankViewController.xib; sourceTree = "<group>"; };
+		337EF25B1EA72DB600AF13CD /* NERankViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NERankViewModel.h; sourceTree = "<group>"; };
+		337EF25C1EA72DB600AF13CD /* NERankViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NERankViewModel.m; sourceTree = "<group>"; };
+		337EF25F1EA72DB600AF13CD /* SongSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongSheetViewController.h; sourceTree = "<group>"; };
+		337EF2601EA72DB600AF13CD /* SongSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongSheetViewController.m; sourceTree = "<group>"; };
+		337EF2611EA72DB600AF13CD /* SongSheetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SongSheetViewController.xib; sourceTree = "<group>"; };
+		337EF26F1EA72E0200AF13CD /* NEBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEBaseController.h; sourceTree = "<group>"; };
+		337EF2701EA72E0200AF13CD /* NEBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEBaseController.m; sourceTree = "<group>"; };
+		337EF2711EA72E0200AF13CD /* NENavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NENavigationController.h; sourceTree = "<group>"; };
+		337EF2721EA72E0200AF13CD /* NENavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NENavigationController.m; sourceTree = "<group>"; };
+		337EF2731EA72E0200AF13CD /* NETabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NETabbarController.h; sourceTree = "<group>"; };
+		337EF2741EA72E0200AF13CD /* NETabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NETabbarController.m; sourceTree = "<group>"; };
 		33AEBA881EA4E8E1001FF0C4 /* fake-netease-music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fake-netease-music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33AEBA8C1EA4E8E1001FF0C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		33AEBA8E1EA4E8E1001FF0C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "fake-netease-music/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
@@ -68,30 +94,9 @@
 		33AEBA9C1EA4E8E1001FF0C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33AEBB271EA4F469001FF0C4 /* NEBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEBaseRequest.h; sourceTree = "<group>"; };
 		33AEBB281EA4F469001FF0C4 /* NEBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEBaseRequest.m; sourceTree = "<group>"; };
-		33AEBB2C1EA4FAA5001FF0C4 /* NENavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NENavigationController.h; sourceTree = "<group>"; };
-		33AEBB2D1EA4FAA5001FF0C4 /* NENavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NENavigationController.m; sourceTree = "<group>"; };
-		33AEBB2F1EA4FABD001FF0C4 /* NEBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEBaseController.h; sourceTree = "<group>"; };
-		33AEBB301EA4FABD001FF0C4 /* NEBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEBaseController.m; sourceTree = "<group>"; };
-		33AEBB321EA4FADA001FF0C4 /* NETabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NETabbarController.h; sourceTree = "<group>"; };
-		33AEBB331EA4FADA001FF0C4 /* NETabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NETabbarController.m; sourceTree = "<group>"; };
-		33AEBB371EA4FB0A001FF0C4 /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
-		33AEBB381EA4FB0A001FF0C4 /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
-		33AEBB3A1EA50D16001FF0C4 /* SYNetworkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SYNetworkFramework.framework; sourceTree = "<group>"; };
-		33AEBB581EA5A7E6001FF0C4 /* SongSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongSheetViewController.h; sourceTree = "<group>"; };
-		33AEBB591EA5A7E6001FF0C4 /* SongSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongSheetViewController.m; sourceTree = "<group>"; };
-		33AEBB5A1EA5A7E6001FF0C4 /* SongSheetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SongSheetViewController.xib; sourceTree = "<group>"; };
-		33AEBB611EA5A851001FF0C4 /* RankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankViewController.h; sourceTree = "<group>"; };
-		33AEBB621EA5A851001FF0C4 /* RankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankViewController.m; sourceTree = "<group>"; };
-		33AEBB631EA5A851001FF0C4 /* RankViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RankViewController.xib; sourceTree = "<group>"; };
-		33AEBB6A1EA5A85A001FF0C4 /* PersonalityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalityViewController.h; sourceTree = "<group>"; };
-		33AEBB6B1EA5A85A001FF0C4 /* PersonalityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalityViewController.m; sourceTree = "<group>"; };
-		33AEBB6C1EA5A85A001FF0C4 /* PersonalityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalityViewController.xib; sourceTree = "<group>"; };
 		33AEBB7E1EA5AC93001FF0C4 /* UIColor+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SYAdd.h"; sourceTree = "<group>"; };
 		33AEBB7F1EA5AC93001FF0C4 /* UIColor+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SYAdd.m"; sourceTree = "<group>"; };
 		33AEBB811EA5B2C1001FF0C4 /* SYCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYCategory.h; sourceTree = "<group>"; };
-		33AEBB821EA5B317001FF0C4 /* RadioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioViewController.h; sourceTree = "<group>"; };
-		33AEBB831EA5B317001FF0C4 /* RadioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioViewController.m; sourceTree = "<group>"; };
-		33AEBB841EA5B317001FF0C4 /* RadioViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RadioViewController.xib; sourceTree = "<group>"; };
 		33AEBB871EA5B370001FF0C4 /* UIDevice+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+SYAdd.h"; sourceTree = "<group>"; };
 		33AEBB881EA5B370001FF0C4 /* UIDevice+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+SYAdd.m"; sourceTree = "<group>"; };
 		33AEBB8B1EA5CC9C001FF0C4 /* NSString+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SYAdd.h"; sourceTree = "<group>"; };
@@ -121,8 +126,6 @@
 		33AEBBB01EA5FB46001FF0C4 /* CALayer+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+SYAdd.h"; sourceTree = "<group>"; };
 		33AEBBB11EA5FB46001FF0C4 /* CALayer+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+SYAdd.m"; sourceTree = "<group>"; };
 		33AEBBB31EA5FF8B001FF0C4 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		33AEBBBA1EA608B3001FF0C4 /* NERankViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NERankViewModel.h; sourceTree = "<group>"; };
-		33AEBBBB1EA608B3001FF0C4 /* NERankViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NERankViewModel.m; sourceTree = "<group>"; };
 		33AEBBBD1EA60E9E001FF0C4 /* NEBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEBaseViewModel.h; sourceTree = "<group>"; };
 		33AEBBBE1EA60E9E001FF0C4 /* NEBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEBaseViewModel.m; sourceTree = "<group>"; };
 		33AEBBC01EA619F7001FF0C4 /* SYNetworkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SYNetworkFramework.framework; sourceTree = "<group>"; };
@@ -144,6 +147,197 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		337EF23F1EA72DB600AF13CD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				337EF2401EA72DB600AF13CD /* HomePager */,
+				337EF2431EA72DB600AF13CD /* Personality */,
+				337EF24B1EA72DB600AF13CD /* Radio */,
+				337EF2531EA72DB600AF13CD /* Rank */,
+				337EF25D1EA72DB600AF13CD /* SongSheet */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		337EF2401EA72DB600AF13CD /* HomePager */ = {
+			isa = PBXGroup;
+			children = (
+				337EF2411EA72DB600AF13CD /* HomeController.h */,
+				337EF2421EA72DB600AF13CD /* HomeController.m */,
+			);
+			path = HomePager;
+			sourceTree = "<group>";
+		};
+		337EF2431EA72DB600AF13CD /* Personality */ = {
+			isa = PBXGroup;
+			children = (
+				337EF2441EA72DB600AF13CD /* Controller */,
+				337EF2481EA72DB600AF13CD /* Model */,
+				337EF2491EA72DB600AF13CD /* View */,
+				337EF24A1EA72DB600AF13CD /* ViewModel */,
+			);
+			path = Personality;
+			sourceTree = "<group>";
+		};
+		337EF2441EA72DB600AF13CD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				337EF2451EA72DB600AF13CD /* PersonalityViewController.h */,
+				337EF2461EA72DB600AF13CD /* PersonalityViewController.m */,
+				337EF2471EA72DB600AF13CD /* PersonalityViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		337EF2481EA72DB600AF13CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		337EF2491EA72DB600AF13CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		337EF24A1EA72DB600AF13CD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		337EF24B1EA72DB600AF13CD /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				337EF24C1EA72DB600AF13CD /* Controller */,
+				337EF2501EA72DB600AF13CD /* Model */,
+				337EF2511EA72DB600AF13CD /* View */,
+				337EF2521EA72DB600AF13CD /* ViewModel */,
+			);
+			path = Radio;
+			sourceTree = "<group>";
+		};
+		337EF24C1EA72DB600AF13CD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				337EF24D1EA72DB600AF13CD /* RadioViewController.h */,
+				337EF24E1EA72DB600AF13CD /* RadioViewController.m */,
+				337EF24F1EA72DB600AF13CD /* RadioViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		337EF2501EA72DB600AF13CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		337EF2511EA72DB600AF13CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		337EF2521EA72DB600AF13CD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		337EF2531EA72DB600AF13CD /* Rank */ = {
+			isa = PBXGroup;
+			children = (
+				337EF2541EA72DB600AF13CD /* Controller */,
+				337EF2581EA72DB600AF13CD /* Model */,
+				337EF2591EA72DB600AF13CD /* View */,
+				337EF25A1EA72DB600AF13CD /* ViewModel */,
+			);
+			path = Rank;
+			sourceTree = "<group>";
+		};
+		337EF2541EA72DB600AF13CD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				337EF2551EA72DB600AF13CD /* RankViewController.h */,
+				337EF2561EA72DB600AF13CD /* RankViewController.m */,
+				337EF2571EA72DB600AF13CD /* RankViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		337EF2581EA72DB600AF13CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		337EF2591EA72DB600AF13CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		337EF25A1EA72DB600AF13CD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				337EF25B1EA72DB600AF13CD /* NERankViewModel.h */,
+				337EF25C1EA72DB600AF13CD /* NERankViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		337EF25D1EA72DB600AF13CD /* SongSheet */ = {
+			isa = PBXGroup;
+			children = (
+				337EF25E1EA72DB600AF13CD /* Controller */,
+				337EF2621EA72DB600AF13CD /* Model */,
+				337EF2631EA72DB600AF13CD /* View */,
+				337EF2641EA72DB600AF13CD /* ViewModel */,
+			);
+			path = SongSheet;
+			sourceTree = "<group>";
+		};
+		337EF25E1EA72DB600AF13CD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				337EF25F1EA72DB600AF13CD /* SongSheetViewController.h */,
+				337EF2601EA72DB600AF13CD /* SongSheetViewController.m */,
+				337EF2611EA72DB600AF13CD /* SongSheetViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		337EF2621EA72DB600AF13CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		337EF2631EA72DB600AF13CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		337EF2641EA72DB600AF13CD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		33AEBA7F1EA4E8E1001FF0C4 = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +394,7 @@
 		33AEBAA31EA4EFAB001FF0C4 /* Section */ = {
 			isa = PBXGroup;
 			children = (
+				337EF23F1EA72DB600AF13CD /* Home */,
 			);
 			path = Section;
 			sourceTree = "<group>";
@@ -232,12 +427,12 @@
 		33AEBAA71EA4F098001FF0C4 /* AppBase */ = {
 			isa = PBXGroup;
 			children = (
-				33AEBB2C1EA4FAA5001FF0C4 /* NENavigationController.h */,
-				33AEBB2D1EA4FAA5001FF0C4 /* NENavigationController.m */,
-				33AEBB2F1EA4FABD001FF0C4 /* NEBaseController.h */,
-				33AEBB301EA4FABD001FF0C4 /* NEBaseController.m */,
-				33AEBB321EA4FADA001FF0C4 /* NETabbarController.h */,
-				33AEBB331EA4FADA001FF0C4 /* NETabbarController.m */,
+				337EF26F1EA72E0200AF13CD /* NEBaseController.h */,
+				337EF2701EA72E0200AF13CD /* NEBaseController.m */,
+				337EF2711EA72E0200AF13CD /* NENavigationController.h */,
+				337EF2721EA72E0200AF13CD /* NENavigationController.m */,
+				337EF2731EA72E0200AF13CD /* NETabbarController.h */,
+				337EF2741EA72E0200AF13CD /* NETabbarController.m */,
 				33AEBBBD1EA60E9E001FF0C4 /* NEBaseViewModel.h */,
 				33AEBBBE1EA60E9E001FF0C4 /* NEBaseViewModel.m */,
 			);
@@ -260,197 +455,6 @@
 				33AEBB281EA4F469001FF0C4 /* NEBaseRequest.m */,
 			);
 			path = AppConfig;
-			sourceTree = "<group>";
-		};
-		33AEBB351EA4FAEA001FF0C4 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				33AEBB511EA5A74E001FF0C4 /* SongSheet */,
-				33AEBB3F1EA5A746001FF0C4 /* Rank */,
-				33AEBB431EA5A746001FF0C4 /* Personality */,
-				33AEBB471EA5A746001FF0C4 /* Radio */,
-				33AEBB361EA4FAFC001FF0C4 /* HomePager */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		33AEBB361EA4FAFC001FF0C4 /* HomePager */ = {
-			isa = PBXGroup;
-			children = (
-				33AEBB371EA4FB0A001FF0C4 /* HomeController.h */,
-				33AEBB381EA4FB0A001FF0C4 /* HomeController.m */,
-			);
-			path = HomePager;
-			sourceTree = "<group>";
-		};
-		33AEBB3F1EA5A746001FF0C4 /* Rank */ = {
-			isa = PBXGroup;
-			children = (
-				33AEBB601EA5A851001FF0C4 /* Controller */,
-				33AEBB641EA5A851001FF0C4 /* ViewModel */,
-				33AEBB651EA5A851001FF0C4 /* Model */,
-				33AEBB661EA5A851001FF0C4 /* View */,
-			);
-			path = Rank;
-			sourceTree = "<group>";
-		};
-		33AEBB431EA5A746001FF0C4 /* Personality */ = {
-			isa = PBXGroup;
-			children = (
-				33AEBB691EA5A85A001FF0C4 /* Controller */,
-				33AEBB6D1EA5A85A001FF0C4 /* ViewModel */,
-				33AEBB6E1EA5A85A001FF0C4 /* Model */,
-				33AEBB6F1EA5A85A001FF0C4 /* View */,
-			);
-			path = Personality;
-			sourceTree = "<group>";
-		};
-		33AEBB471EA5A746001FF0C4 /* Radio */ = {
-			isa = PBXGroup;
-			children = (
-				33AEBB721EA5A865001FF0C4 /* Controller */,
-				33AEBB761EA5A865001FF0C4 /* ViewModel */,
-				33AEBB771EA5A865001FF0C4 /* Model */,
-				33AEBB781EA5A865001FF0C4 /* View */,
-			);
-			path = Radio;
-			sourceTree = "<group>";
-		};
-		33AEBB511EA5A74E001FF0C4 /* SongSheet */ = {
-			isa = PBXGroup;
-			children = (
-				33AEBB571EA5A7E6001FF0C4 /* Controller */,
-				33AEBB5B1EA5A7E6001FF0C4 /* ViewModel */,
-				33AEBB5C1EA5A7E6001FF0C4 /* Model */,
-				33AEBB5D1EA5A7E6001FF0C4 /* View */,
-			);
-			path = SongSheet;
-			sourceTree = "<group>";
-		};
-		33AEBB571EA5A7E6001FF0C4 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				33AEBB581EA5A7E6001FF0C4 /* SongSheetViewController.h */,
-				33AEBB591EA5A7E6001FF0C4 /* SongSheetViewController.m */,
-				33AEBB5A1EA5A7E6001FF0C4 /* SongSheetViewController.xib */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		33AEBB5B1EA5A7E6001FF0C4 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		33AEBB5C1EA5A7E6001FF0C4 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		33AEBB5D1EA5A7E6001FF0C4 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		33AEBB601EA5A851001FF0C4 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				33AEBB611EA5A851001FF0C4 /* RankViewController.h */,
-				33AEBB621EA5A851001FF0C4 /* RankViewController.m */,
-				33AEBB631EA5A851001FF0C4 /* RankViewController.xib */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		33AEBB641EA5A851001FF0C4 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				33AEBBBA1EA608B3001FF0C4 /* NERankViewModel.h */,
-				33AEBBBB1EA608B3001FF0C4 /* NERankViewModel.m */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		33AEBB651EA5A851001FF0C4 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		33AEBB661EA5A851001FF0C4 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		33AEBB691EA5A85A001FF0C4 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				33AEBB6A1EA5A85A001FF0C4 /* PersonalityViewController.h */,
-				33AEBB6B1EA5A85A001FF0C4 /* PersonalityViewController.m */,
-				33AEBB6C1EA5A85A001FF0C4 /* PersonalityViewController.xib */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		33AEBB6D1EA5A85A001FF0C4 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		33AEBB6E1EA5A85A001FF0C4 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		33AEBB6F1EA5A85A001FF0C4 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		33AEBB721EA5A865001FF0C4 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				33AEBB821EA5B317001FF0C4 /* RadioViewController.h */,
-				33AEBB831EA5B317001FF0C4 /* RadioViewController.m */,
-				33AEBB841EA5B317001FF0C4 /* RadioViewController.xib */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		33AEBB761EA5A865001FF0C4 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		33AEBB771EA5A865001FF0C4 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		33AEBB781EA5A865001FF0C4 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		33AEBB7B1EA5A9C6001FF0C4 /* SYKit */ = {
@@ -612,13 +616,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33AEBA9B1EA4E8E1001FF0C4 /* LaunchScreen.storyboard in Resources */,
-				33AEBB711EA5A85A001FF0C4 /* PersonalityViewController.xib in Resources */,
+				337EF27A1EA72FAE00AF13CD /* LaunchScreen.storyboard in Resources */,
+				337EF2791EA72FA600AF13CD /* Main.storyboard in Resources */,
+				337EF2781EA72F4700AF13CD /* RadioViewController.xib in Resources */,
+				337EF26E1EA72DB600AF13CD /* SongSheetViewController.xib in Resources */,
+				337EF26B1EA72DB600AF13CD /* RankViewController.xib in Resources */,
 				33AEBA981EA4E8E1001FF0C4 /* Assets.xcassets in Resources */,
-				33AEBB5F1EA5A7E6001FF0C4 /* SongSheetViewController.xib in Resources */,
-				33AEBB681EA5A851001FF0C4 /* RankViewController.xib in Resources */,
-				33AEBA961EA4E8E1001FF0C4 /* Main.storyboard in Resources */,
-				33AEBB861EA5B317001FF0C4 /* RadioViewController.xib in Resources */,
+				337EF2671EA72DB600AF13CD /* PersonalityViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -680,29 +684,30 @@
 				33AEBBAC1EA5F761001FF0C4 /* NSDate+SYAdd.m in Sources */,
 				33AEBBB21EA5FB46001FF0C4 /* CALayer+SYAdd.m in Sources */,
 				33AEBBAF1EA5FB29001FF0C4 /* UITextField+SYAdd.m in Sources */,
-				33AEBBBC1EA608B3001FF0C4 /* NERankViewModel.m in Sources */,
-				33AEBB391EA4FB0A001FF0C4 /* HomeController.m in Sources */,
 				33AEBB891EA5B370001FF0C4 /* UIDevice+SYAdd.m in Sources */,
 				33AEBA931EA4E8E1001FF0C4 /* ViewController.m in Sources */,
 				33AEBB801EA5AC93001FF0C4 /* UIColor+SYAdd.m in Sources */,
-				33AEBB671EA5A851001FF0C4 /* RankViewController.m in Sources */,
 				33AEBB291EA4F469001FF0C4 /* NEBaseRequest.m in Sources */,
 				33AEBBBF1EA60E9E001FF0C4 /* NEBaseViewModel.m in Sources */,
-				33AEBB2E1EA4FAA5001FF0C4 /* NENavigationController.m in Sources */,
+				337EF26A1EA72DB600AF13CD /* RankViewController.m in Sources */,
 				33AEBB961EA5D5E5001FF0C4 /* NSObject+SYAdd.m in Sources */,
 				33AEBB9F1EA5D8B7001FF0C4 /* UIBarButtonItem+SYAdd.m in Sources */,
+				337EF2661EA72DB600AF13CD /* PersonalityViewController.m in Sources */,
+				337EF2651EA72DB600AF13CD /* HomeController.m in Sources */,
+				337EF26C1EA72DB600AF13CD /* NERankViewModel.m in Sources */,
+				337EF2681EA72DB600AF13CD /* RadioViewController.m in Sources */,
 				33AEBBA51EA5E034001FF0C4 /* SYFrameLayout.m in Sources */,
+				337EF2751EA72E0200AF13CD /* NEBaseController.m in Sources */,
 				33AEBA901EA4E8E1001FF0C4 /* AppDelegate.m in Sources */,
 				33AEBA8D1EA4E8E1001FF0C4 /* main.m in Sources */,
 				33AEBB901EA5CCAE001FF0C4 /* NSArray+SYAdd.m in Sources */,
-				33AEBB851EA5B317001FF0C4 /* RadioViewController.m in Sources */,
-				33AEBB311EA4FABD001FF0C4 /* NEBaseController.m in Sources */,
-				33AEBB5E1EA5A7E6001FF0C4 /* SongSheetViewController.m in Sources */,
+				337EF2761EA72E0200AF13CD /* NENavigationController.m in Sources */,
+				337EF26D1EA72DB600AF13CD /* SongSheetViewController.m in Sources */,
 				33AEBB9C1EA5D7A6001FF0C4 /* UIControl+SYAdd.m in Sources */,
 				33AEBB931EA5D527001FF0C4 /* NSDictionary+SYAdd.m in Sources */,
 				33AEBBA91EA5ED35001FF0C4 /* NSObject+toast.m in Sources */,
-				33AEBB701EA5A85A001FF0C4 /* PersonalityViewController.m in Sources */,
 				33AEBB8D1EA5CC9C001FF0C4 /* NSString+SYAdd.m in Sources */,
+				337EF2771EA72E0200AF13CD /* NETabbarController.m in Sources */,
 				33AEBB991EA5D6D8001FF0C4 /* UIImage+SYAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
