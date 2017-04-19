@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		038B64A5057BAEED0A8D8396 /* Pods_fake_netease_music.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEC76FF48DD0B3D3B8139FE /* Pods_fake_netease_music.framework */; };
 		33AEBA8D1EA4E8E1001FF0C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBA8C1EA4E8E1001FF0C4 /* main.m */; };
 		33AEBA901EA4E8E1001FF0C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBA8F1EA4E8E1001FF0C4 /* AppDelegate.m */; };
 		33AEBA931EA4E8E1001FF0C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBA921EA4E8E1001FF0C4 /* ViewController.m */; };
@@ -14,16 +15,31 @@
 		33AEBA981EA4E8E1001FF0C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBA971EA4E8E1001FF0C4 /* Assets.xcassets */; };
 		33AEBA9B1EA4E8E1001FF0C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBA991EA4E8E1001FF0C4 /* LaunchScreen.storyboard */; };
 		33AEBB291EA4F469001FF0C4 /* NEBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB281EA4F469001FF0C4 /* NEBaseRequest.m */; };
-<<<<<<< HEAD
-		33AEBB2B1EA4F481001FF0C4 /* SYNetworkFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 33AEBB221EA4F41D001FF0C4 /* SYNetworkFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-=======
+
 		33AEBB2E1EA4FAA5001FF0C4 /* NENavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB2D1EA4FAA5001FF0C4 /* NENavigationController.m */; };
 		33AEBB311EA4FABD001FF0C4 /* NEBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB301EA4FABD001FF0C4 /* NEBaseController.m */; };
 		33AEBB341EA4FADA001FF0C4 /* NETabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB331EA4FADA001FF0C4 /* NETabbarController.m */; };
 		33AEBB391EA4FB0A001FF0C4 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB381EA4FB0A001FF0C4 /* HomeController.m */; };
-		33AEBB3B1EA50D16001FF0C4 /* SYNetworkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AEBB3A1EA50D16001FF0C4 /* SYNetworkFramework.framework */; };
->>>>>>> master
-		82F247F5AE0BCACF08AC5742 /* libPods-fake-netease-music.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */; };
+        33AEBB711EA5A85A001FF0C4 /* PersonalityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBB6C1EA5A85A001FF0C4 /* PersonalityViewController.xib */; };
+		33AEBB801EA5AC93001FF0C4 /* UIColor+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB7F1EA5AC93001FF0C4 /* UIColor+SYAdd.m */; };
+		33AEBB851EA5B317001FF0C4 /* RadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB831EA5B317001FF0C4 /* RadioViewController.m */; };
+		33AEBB861EA5B317001FF0C4 /* RadioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33AEBB841EA5B317001FF0C4 /* RadioViewController.xib */; };
+		33AEBB891EA5B370001FF0C4 /* UIDevice+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB881EA5B370001FF0C4 /* UIDevice+SYAdd.m */; };
+		33AEBB8D1EA5CC9C001FF0C4 /* NSString+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB8C1EA5CC9C001FF0C4 /* NSString+SYAdd.m */; };
+		33AEBB901EA5CCAE001FF0C4 /* NSArray+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB8F1EA5CCAE001FF0C4 /* NSArray+SYAdd.m */; };
+		33AEBB931EA5D527001FF0C4 /* NSDictionary+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB921EA5D527001FF0C4 /* NSDictionary+SYAdd.m */; };
+		33AEBB961EA5D5E5001FF0C4 /* NSObject+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB951EA5D5E5001FF0C4 /* NSObject+SYAdd.m */; };
+		33AEBB991EA5D6D8001FF0C4 /* UIImage+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB981EA5D6D8001FF0C4 /* UIImage+SYAdd.m */; };
+		33AEBB9C1EA5D7A6001FF0C4 /* UIControl+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB9B1EA5D7A6001FF0C4 /* UIControl+SYAdd.m */; };
+		33AEBB9F1EA5D8B7001FF0C4 /* UIBarButtonItem+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBB9E1EA5D8B7001FF0C4 /* UIBarButtonItem+SYAdd.m */; };
+		33AEBBA51EA5E034001FF0C4 /* SYFrameLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBBA41EA5E034001FF0C4 /* SYFrameLayout.m */; };
+		33AEBBA91EA5ED35001FF0C4 /* NSObject+toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBBA81EA5ED35001FF0C4 /* NSObject+toast.m */; };
+		33AEBBAC1EA5F761001FF0C4 /* NSDate+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBBAB1EA5F761001FF0C4 /* NSDate+SYAdd.m */; };
+		33AEBBAF1EA5FB29001FF0C4 /* UITextField+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBBAE1EA5FB29001FF0C4 /* UITextField+SYAdd.m */; };
+		33AEBBB21EA5FB46001FF0C4 /* CALayer+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBBB11EA5FB46001FF0C4 /* CALayer+SYAdd.m */; };
+		33AEBBBC1EA608B3001FF0C4 /* NERankViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBBBB1EA608B3001FF0C4 /* NERankViewModel.m */; };
+		33AEBBBF1EA60E9E001FF0C4 /* NEBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEBBBE1EA60E9E001FF0C4 /* NEBaseViewModel.m */; };
+		33AEBBC11EA619F7001FF0C4 /* SYNetworkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AEBBC01EA619F7001FF0C4 /* SYNetworkFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,8 +68,6 @@
 		33AEBA9C1EA4E8E1001FF0C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33AEBB271EA4F469001FF0C4 /* NEBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEBaseRequest.h; sourceTree = "<group>"; };
 		33AEBB281EA4F469001FF0C4 /* NEBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEBaseRequest.m; sourceTree = "<group>"; };
-<<<<<<< HEAD
-=======
 		33AEBB2C1EA4FAA5001FF0C4 /* NENavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NENavigationController.h; sourceTree = "<group>"; };
 		33AEBB2D1EA4FAA5001FF0C4 /* NENavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NENavigationController.m; sourceTree = "<group>"; };
 		33AEBB2F1EA4FABD001FF0C4 /* NEBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEBaseController.h; sourceTree = "<group>"; };
@@ -63,10 +77,58 @@
 		33AEBB371EA4FB0A001FF0C4 /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
 		33AEBB381EA4FB0A001FF0C4 /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
 		33AEBB3A1EA50D16001FF0C4 /* SYNetworkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SYNetworkFramework.framework; sourceTree = "<group>"; };
->>>>>>> master
+		33AEBB581EA5A7E6001FF0C4 /* SongSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongSheetViewController.h; sourceTree = "<group>"; };
+		33AEBB591EA5A7E6001FF0C4 /* SongSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongSheetViewController.m; sourceTree = "<group>"; };
+		33AEBB5A1EA5A7E6001FF0C4 /* SongSheetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SongSheetViewController.xib; sourceTree = "<group>"; };
+		33AEBB611EA5A851001FF0C4 /* RankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankViewController.h; sourceTree = "<group>"; };
+		33AEBB621EA5A851001FF0C4 /* RankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankViewController.m; sourceTree = "<group>"; };
+		33AEBB631EA5A851001FF0C4 /* RankViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RankViewController.xib; sourceTree = "<group>"; };
+		33AEBB6A1EA5A85A001FF0C4 /* PersonalityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalityViewController.h; sourceTree = "<group>"; };
+		33AEBB6B1EA5A85A001FF0C4 /* PersonalityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalityViewController.m; sourceTree = "<group>"; };
+		33AEBB6C1EA5A85A001FF0C4 /* PersonalityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalityViewController.xib; sourceTree = "<group>"; };
+		33AEBB7E1EA5AC93001FF0C4 /* UIColor+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SYAdd.h"; sourceTree = "<group>"; };
+		33AEBB7F1EA5AC93001FF0C4 /* UIColor+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SYAdd.m"; sourceTree = "<group>"; };
+		33AEBB811EA5B2C1001FF0C4 /* SYCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYCategory.h; sourceTree = "<group>"; };
+		33AEBB821EA5B317001FF0C4 /* RadioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioViewController.h; sourceTree = "<group>"; };
+		33AEBB831EA5B317001FF0C4 /* RadioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioViewController.m; sourceTree = "<group>"; };
+		33AEBB841EA5B317001FF0C4 /* RadioViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RadioViewController.xib; sourceTree = "<group>"; };
+		33AEBB871EA5B370001FF0C4 /* UIDevice+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+SYAdd.h"; sourceTree = "<group>"; };
+		33AEBB881EA5B370001FF0C4 /* UIDevice+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+SYAdd.m"; sourceTree = "<group>"; };
+		33AEBB8B1EA5CC9C001FF0C4 /* NSString+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SYAdd.h"; sourceTree = "<group>"; };
+		33AEBB8C1EA5CC9C001FF0C4 /* NSString+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SYAdd.m"; sourceTree = "<group>"; };
+		33AEBB8E1EA5CCAE001FF0C4 /* NSArray+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SYAdd.h"; sourceTree = "<group>"; };
+		33AEBB8F1EA5CCAE001FF0C4 /* NSArray+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SYAdd.m"; sourceTree = "<group>"; };
+		33AEBB911EA5D527001FF0C4 /* NSDictionary+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SYAdd.h"; sourceTree = "<group>"; };
+		33AEBB921EA5D527001FF0C4 /* NSDictionary+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SYAdd.m"; sourceTree = "<group>"; };
+		33AEBB941EA5D5E5001FF0C4 /* NSObject+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SYAdd.h"; sourceTree = "<group>"; };
+		33AEBB951EA5D5E5001FF0C4 /* NSObject+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SYAdd.m"; sourceTree = "<group>"; };
+		33AEBB971EA5D6D8001FF0C4 /* UIImage+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SYAdd.h"; sourceTree = "<group>"; };
+		33AEBB981EA5D6D8001FF0C4 /* UIImage+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SYAdd.m"; sourceTree = "<group>"; };
+		33AEBB9A1EA5D7A6001FF0C4 /* UIControl+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+SYAdd.h"; sourceTree = "<group>"; };
+		33AEBB9B1EA5D7A6001FF0C4 /* UIControl+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+SYAdd.m"; sourceTree = "<group>"; };
+		33AEBB9D1EA5D8B7001FF0C4 /* UIBarButtonItem+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SYAdd.h"; sourceTree = "<group>"; };
+		33AEBB9E1EA5D8B7001FF0C4 /* UIBarButtonItem+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SYAdd.m"; sourceTree = "<group>"; };
+		33AEBBA11EA5DE57001FF0C4 /* SYMarcos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYMarcos.h; sourceTree = "<group>"; };
+		33AEBBA31EA5E034001FF0C4 /* SYFrameLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFrameLayout.h; sourceTree = "<group>"; };
+		33AEBBA41EA5E034001FF0C4 /* SYFrameLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFrameLayout.m; sourceTree = "<group>"; };
+		33AEBBA61EA5E626001FF0C4 /* SYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYKit.h; sourceTree = "<group>"; };
+		33AEBBA71EA5ED35001FF0C4 /* NSObject+toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+toast.h"; sourceTree = "<group>"; };
+		33AEBBA81EA5ED35001FF0C4 /* NSObject+toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+toast.m"; sourceTree = "<group>"; };
+		33AEBBAA1EA5F761001FF0C4 /* NSDate+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+SYAdd.h"; sourceTree = "<group>"; };
+		33AEBBAB1EA5F761001FF0C4 /* NSDate+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+SYAdd.m"; sourceTree = "<group>"; };
+		33AEBBAD1EA5FB29001FF0C4 /* UITextField+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+SYAdd.h"; sourceTree = "<group>"; };
+		33AEBBAE1EA5FB29001FF0C4 /* UITextField+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+SYAdd.m"; sourceTree = "<group>"; };
+		33AEBBB01EA5FB46001FF0C4 /* CALayer+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+SYAdd.h"; sourceTree = "<group>"; };
+		33AEBBB11EA5FB46001FF0C4 /* CALayer+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+SYAdd.m"; sourceTree = "<group>"; };
+		33AEBBB31EA5FF8B001FF0C4 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		33AEBBBA1EA608B3001FF0C4 /* NERankViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NERankViewModel.h; sourceTree = "<group>"; };
+		33AEBBBB1EA608B3001FF0C4 /* NERankViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NERankViewModel.m; sourceTree = "<group>"; };
+		33AEBBBD1EA60E9E001FF0C4 /* NEBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEBaseViewModel.h; sourceTree = "<group>"; };
+		33AEBBBE1EA60E9E001FF0C4 /* NEBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEBaseViewModel.m; sourceTree = "<group>"; };
+		33AEBBC01EA619F7001FF0C4 /* SYNetworkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SYNetworkFramework.framework; sourceTree = "<group>"; };
 		7162621B7511145A510BA3B6 /* Pods-fake-netease-music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake-netease-music.release.xcconfig"; path = "Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music.release.xcconfig"; sourceTree = "<group>"; };
 		943D84572452F68D2A0A4E57 /* Pods-fake-netease-music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake-netease-music.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fake-netease-music/Pods-fake-netease-music.debug.xcconfig"; sourceTree = "<group>"; };
-		C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fake-netease-music.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEC76FF48DD0B3D3B8139FE /* Pods_fake_netease_music.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fake_netease_music.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +136,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33AEBB3B1EA50D16001FF0C4 /* SYNetworkFramework.framework in Frameworks */,
-				82F247F5AE0BCACF08AC5742 /* libPods-fake-netease-music.a in Frameworks */,
+				33AEBBC11EA619F7001FF0C4 /* SYNetworkFramework.framework in Frameworks */,
+				038B64A5057BAEED0A8D8396 /* Pods_fake_netease_music.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +184,7 @@
 				33AEBA991EA4E8E1001FF0C4 /* LaunchScreen.storyboard */,
 				33AEBA9C1EA4E8E1001FF0C4 /* Info.plist */,
 				33AEBA8C1EA4E8E1001FF0C4 /* main.m */,
+				33AEBBB31EA5FF8B001FF0C4 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -129,6 +192,7 @@
 		33AEBAA21EA4EFAB001FF0C4 /* General */ = {
 			isa = PBXGroup;
 			children = (
+				33AEBB7B1EA5A9C6001FF0C4 /* SYKit */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -168,6 +232,14 @@
 		33AEBAA71EA4F098001FF0C4 /* AppBase */ = {
 			isa = PBXGroup;
 			children = (
+				33AEBB2C1EA4FAA5001FF0C4 /* NENavigationController.h */,
+				33AEBB2D1EA4FAA5001FF0C4 /* NENavigationController.m */,
+				33AEBB2F1EA4FABD001FF0C4 /* NEBaseController.h */,
+				33AEBB301EA4FABD001FF0C4 /* NEBaseController.m */,
+				33AEBB321EA4FADA001FF0C4 /* NETabbarController.h */,
+				33AEBB331EA4FADA001FF0C4 /* NETabbarController.m */,
+				33AEBBBD1EA60E9E001FF0C4 /* NEBaseViewModel.h */,
+				33AEBBBE1EA60E9E001FF0C4 /* NEBaseViewModel.m */,
 			);
 			path = AppBase;
 			sourceTree = "<group>";
@@ -190,11 +262,280 @@
 			path = AppConfig;
 			sourceTree = "<group>";
 		};
+		33AEBB351EA4FAEA001FF0C4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBB511EA5A74E001FF0C4 /* SongSheet */,
+				33AEBB3F1EA5A746001FF0C4 /* Rank */,
+				33AEBB431EA5A746001FF0C4 /* Personality */,
+				33AEBB471EA5A746001FF0C4 /* Radio */,
+				33AEBB361EA4FAFC001FF0C4 /* HomePager */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		33AEBB361EA4FAFC001FF0C4 /* HomePager */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBB371EA4FB0A001FF0C4 /* HomeController.h */,
+				33AEBB381EA4FB0A001FF0C4 /* HomeController.m */,
+			);
+			path = HomePager;
+			sourceTree = "<group>";
+		};
+		33AEBB3F1EA5A746001FF0C4 /* Rank */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBB601EA5A851001FF0C4 /* Controller */,
+				33AEBB641EA5A851001FF0C4 /* ViewModel */,
+				33AEBB651EA5A851001FF0C4 /* Model */,
+				33AEBB661EA5A851001FF0C4 /* View */,
+			);
+			path = Rank;
+			sourceTree = "<group>";
+		};
+		33AEBB431EA5A746001FF0C4 /* Personality */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBB691EA5A85A001FF0C4 /* Controller */,
+				33AEBB6D1EA5A85A001FF0C4 /* ViewModel */,
+				33AEBB6E1EA5A85A001FF0C4 /* Model */,
+				33AEBB6F1EA5A85A001FF0C4 /* View */,
+			);
+			path = Personality;
+			sourceTree = "<group>";
+		};
+		33AEBB471EA5A746001FF0C4 /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBB721EA5A865001FF0C4 /* Controller */,
+				33AEBB761EA5A865001FF0C4 /* ViewModel */,
+				33AEBB771EA5A865001FF0C4 /* Model */,
+				33AEBB781EA5A865001FF0C4 /* View */,
+			);
+			path = Radio;
+			sourceTree = "<group>";
+		};
+		33AEBB511EA5A74E001FF0C4 /* SongSheet */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBB571EA5A7E6001FF0C4 /* Controller */,
+				33AEBB5B1EA5A7E6001FF0C4 /* ViewModel */,
+				33AEBB5C1EA5A7E6001FF0C4 /* Model */,
+				33AEBB5D1EA5A7E6001FF0C4 /* View */,
+			);
+			path = SongSheet;
+			sourceTree = "<group>";
+		};
+		33AEBB571EA5A7E6001FF0C4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBB581EA5A7E6001FF0C4 /* SongSheetViewController.h */,
+				33AEBB591EA5A7E6001FF0C4 /* SongSheetViewController.m */,
+				33AEBB5A1EA5A7E6001FF0C4 /* SongSheetViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		33AEBB5B1EA5A7E6001FF0C4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		33AEBB5C1EA5A7E6001FF0C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33AEBB5D1EA5A7E6001FF0C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33AEBB601EA5A851001FF0C4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBB611EA5A851001FF0C4 /* RankViewController.h */,
+				33AEBB621EA5A851001FF0C4 /* RankViewController.m */,
+				33AEBB631EA5A851001FF0C4 /* RankViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		33AEBB641EA5A851001FF0C4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBBBA1EA608B3001FF0C4 /* NERankViewModel.h */,
+				33AEBBBB1EA608B3001FF0C4 /* NERankViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		33AEBB651EA5A851001FF0C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33AEBB661EA5A851001FF0C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33AEBB691EA5A85A001FF0C4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBB6A1EA5A85A001FF0C4 /* PersonalityViewController.h */,
+				33AEBB6B1EA5A85A001FF0C4 /* PersonalityViewController.m */,
+				33AEBB6C1EA5A85A001FF0C4 /* PersonalityViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		33AEBB6D1EA5A85A001FF0C4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		33AEBB6E1EA5A85A001FF0C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33AEBB6F1EA5A85A001FF0C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33AEBB721EA5A865001FF0C4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBB821EA5B317001FF0C4 /* RadioViewController.h */,
+				33AEBB831EA5B317001FF0C4 /* RadioViewController.m */,
+				33AEBB841EA5B317001FF0C4 /* RadioViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		33AEBB761EA5A865001FF0C4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		33AEBB771EA5A865001FF0C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33AEBB781EA5A865001FF0C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33AEBB7B1EA5A9C6001FF0C4 /* SYKit */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBBA61EA5E626001FF0C4 /* SYKit.h */,
+				33AEBBA21EA5E020001FF0C4 /* Utils */,
+				33AEBBA01EA5DE42001FF0C4 /* Macros */,
+				33AEBB7C1EA5AA10001FF0C4 /* Category */,
+			);
+			path = SYKit;
+			sourceTree = "<group>";
+		};
+		33AEBB7C1EA5AA10001FF0C4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBB811EA5B2C1001FF0C4 /* SYCategory.h */,
+				33AEBB8A1EA5CC8E001FF0C4 /* Foundation */,
+				33AEBB7D1EA5AC74001FF0C4 /* UIKit */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		33AEBB7D1EA5AC74001FF0C4 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBB7E1EA5AC93001FF0C4 /* UIColor+SYAdd.h */,
+				33AEBB7F1EA5AC93001FF0C4 /* UIColor+SYAdd.m */,
+				33AEBB871EA5B370001FF0C4 /* UIDevice+SYAdd.h */,
+				33AEBB881EA5B370001FF0C4 /* UIDevice+SYAdd.m */,
+				33AEBB971EA5D6D8001FF0C4 /* UIImage+SYAdd.h */,
+				33AEBB981EA5D6D8001FF0C4 /* UIImage+SYAdd.m */,
+				33AEBB9A1EA5D7A6001FF0C4 /* UIControl+SYAdd.h */,
+				33AEBB9B1EA5D7A6001FF0C4 /* UIControl+SYAdd.m */,
+				33AEBB9D1EA5D8B7001FF0C4 /* UIBarButtonItem+SYAdd.h */,
+				33AEBB9E1EA5D8B7001FF0C4 /* UIBarButtonItem+SYAdd.m */,
+				33AEBBA71EA5ED35001FF0C4 /* NSObject+toast.h */,
+				33AEBBA81EA5ED35001FF0C4 /* NSObject+toast.m */,
+				33AEBBAD1EA5FB29001FF0C4 /* UITextField+SYAdd.h */,
+				33AEBBAE1EA5FB29001FF0C4 /* UITextField+SYAdd.m */,
+				33AEBBB01EA5FB46001FF0C4 /* CALayer+SYAdd.h */,
+				33AEBBB11EA5FB46001FF0C4 /* CALayer+SYAdd.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		33AEBB8A1EA5CC8E001FF0C4 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBB8B1EA5CC9C001FF0C4 /* NSString+SYAdd.h */,
+				33AEBB8C1EA5CC9C001FF0C4 /* NSString+SYAdd.m */,
+				33AEBB8E1EA5CCAE001FF0C4 /* NSArray+SYAdd.h */,
+				33AEBB8F1EA5CCAE001FF0C4 /* NSArray+SYAdd.m */,
+				33AEBB911EA5D527001FF0C4 /* NSDictionary+SYAdd.h */,
+				33AEBB921EA5D527001FF0C4 /* NSDictionary+SYAdd.m */,
+				33AEBB941EA5D5E5001FF0C4 /* NSObject+SYAdd.h */,
+				33AEBB951EA5D5E5001FF0C4 /* NSObject+SYAdd.m */,
+				33AEBBAA1EA5F761001FF0C4 /* NSDate+SYAdd.h */,
+				33AEBBAB1EA5F761001FF0C4 /* NSDate+SYAdd.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		33AEBBA01EA5DE42001FF0C4 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBBA11EA5DE57001FF0C4 /* SYMarcos.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		33AEBBA21EA5E020001FF0C4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				33AEBBA31EA5E034001FF0C4 /* SYFrameLayout.h */,
+				33AEBBA41EA5E034001FF0C4 /* SYFrameLayout.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		42B6E6B532E16A68E02CCAF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				33AEBB3A1EA50D16001FF0C4 /* SYNetworkFramework.framework */,
-				C596FC35D673167B0E8CA196 /* libPods-fake-netease-music.a */,
+				33AEBBC01EA619F7001FF0C4 /* SYNetworkFramework.framework */,
+				FBEC76FF48DD0B3D3B8139FE /* Pods_fake_netease_music.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -272,8 +613,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				33AEBA9B1EA4E8E1001FF0C4 /* LaunchScreen.storyboard in Resources */,
+				33AEBB711EA5A85A001FF0C4 /* PersonalityViewController.xib in Resources */,
 				33AEBA981EA4E8E1001FF0C4 /* Assets.xcassets in Resources */,
+				33AEBB5F1EA5A7E6001FF0C4 /* SongSheetViewController.xib in Resources */,
+				33AEBB681EA5A851001FF0C4 /* RankViewController.xib in Resources */,
 				33AEBA961EA4E8E1001FF0C4 /* Main.storyboard in Resources */,
+				33AEBB861EA5B317001FF0C4 /* RadioViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,10 +677,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33AEBBAC1EA5F761001FF0C4 /* NSDate+SYAdd.m in Sources */,
+				33AEBBB21EA5FB46001FF0C4 /* CALayer+SYAdd.m in Sources */,
+				33AEBBAF1EA5FB29001FF0C4 /* UITextField+SYAdd.m in Sources */,
+				33AEBBBC1EA608B3001FF0C4 /* NERankViewModel.m in Sources */,
+				33AEBB391EA4FB0A001FF0C4 /* HomeController.m in Sources */,
+				33AEBB891EA5B370001FF0C4 /* UIDevice+SYAdd.m in Sources */,
 				33AEBA931EA4E8E1001FF0C4 /* ViewController.m in Sources */,
+				33AEBB801EA5AC93001FF0C4 /* UIColor+SYAdd.m in Sources */,
+				33AEBB671EA5A851001FF0C4 /* RankViewController.m in Sources */,
 				33AEBB291EA4F469001FF0C4 /* NEBaseRequest.m in Sources */,
+				33AEBBBF1EA60E9E001FF0C4 /* NEBaseViewModel.m in Sources */,
+				33AEBB2E1EA4FAA5001FF0C4 /* NENavigationController.m in Sources */,
+				33AEBB961EA5D5E5001FF0C4 /* NSObject+SYAdd.m in Sources */,
+				33AEBB9F1EA5D8B7001FF0C4 /* UIBarButtonItem+SYAdd.m in Sources */,
+				33AEBBA51EA5E034001FF0C4 /* SYFrameLayout.m in Sources */,
 				33AEBA901EA4E8E1001FF0C4 /* AppDelegate.m in Sources */,
 				33AEBA8D1EA4E8E1001FF0C4 /* main.m in Sources */,
+				33AEBB901EA5CCAE001FF0C4 /* NSArray+SYAdd.m in Sources */,
+				33AEBB851EA5B317001FF0C4 /* RadioViewController.m in Sources */,
+				33AEBB311EA4FABD001FF0C4 /* NEBaseController.m in Sources */,
+				33AEBB5E1EA5A7E6001FF0C4 /* SongSheetViewController.m in Sources */,
+				33AEBB9C1EA5D7A6001FF0C4 /* UIControl+SYAdd.m in Sources */,
+				33AEBB931EA5D527001FF0C4 /* NSDictionary+SYAdd.m in Sources */,
+				33AEBBA91EA5ED35001FF0C4 /* NSObject+toast.m in Sources */,
+				33AEBB701EA5A85A001FF0C4 /* PersonalityViewController.m in Sources */,
+				33AEBB8D1EA5CC9C001FF0C4 /* NSString+SYAdd.m in Sources */,
+				33AEBB991EA5D6D8001FF0C4 /* UIImage+SYAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,11 +824,13 @@
 			baseConfigurationReference = 943D84572452F68D2A0A4E57 /* Pods-fake-netease-music.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				DEVELOPMENT_TEAM = 552B69TXM9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PREFIX_HEADER = "fake-netease-music/PrefixHeader.pch";
 				INFOPLIST_FILE = "fake-netease-music/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -474,11 +844,13 @@
 			baseConfigurationReference = 7162621B7511145A510BA3B6 /* Pods-fake-netease-music.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				DEVELOPMENT_TEAM = 552B69TXM9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PREFIX_HEADER = "fake-netease-music/PrefixHeader.pch";
 				INFOPLIST_FILE = "fake-netease-music/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
