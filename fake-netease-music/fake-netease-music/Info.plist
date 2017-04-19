@@ -2,6 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSCameraUsageDescription</key>
+	<string>$(PRODUCT_NAME) camera use</string>
+    
+    <!-- 相册 -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>需要您的同意,才能访问相册</string>
+    <!-- 媒体资料库 -->
+    <key>NSAppleMusicUsageDescription</key>
+    <string>需要您的同意,才能访问媒体资料库</string>
+    
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>

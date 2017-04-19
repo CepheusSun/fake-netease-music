@@ -1,6 +1,0 @@
-framework module EmptyDataKit {
-  umbrella header "EmptyDataKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

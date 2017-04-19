@@ -1,6 +1,0 @@
-framework module ZXPAutoLayout {
-  umbrella header "ZXPAutoLayout-umbrella.h"
-
-  export *
-  module * { export * }
-}
